@@ -46,11 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConnectDatabase.cs" />
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MuonTTBhoctap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MuonTTBhoctap.Designer.cs">
+      <DependentUpon>MuonTTBhoctap.cs</DependentUpon>
     </Compile>
     <Compile Include="NhatKySuDungGD.cs">
       <SubType>Form</SubType>
@@ -62,6 +69,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MuonTTBhoctap.resx">
+      <DependentUpon>MuonTTBhoctap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NhatKySuDungGD.resx">
       <DependentUpon>NhatKySuDungGD.cs</DependentUpon>
