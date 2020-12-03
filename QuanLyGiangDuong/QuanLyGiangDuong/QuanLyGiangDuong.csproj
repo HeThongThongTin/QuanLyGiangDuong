@@ -47,6 +47,28 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConnectDatabase.cs" />
+    <Compile Include="DataAccessObject\DataProvider.cs" />
+    <Compile Include="DataAccessObject\NhatKySuDungHoiTruong_DAO.cs" />
+    <Compile Include="DataTransferObject\Buoi.cs" />
+    <Compile Include="DataTransferObject\CanBo.cs" />
+    <Compile Include="DataTransferObject\ChiTietPhong.cs" />
+    <Compile Include="DataTransferObject\ChucVu.cs" />
+    <Compile Include="DataTransferObject\CongViec.cs" />
+    <Compile Include="DataTransferObject\DanhMucVatChat.cs" />
+    <Compile Include="DataTransferObject\DanhSachMuonTTB.cs" />
+    <Compile Include="DataTransferObject\HoiTruong.cs" />
+    <Compile Include="DataTransferObject\HoiTruong_DanhMucVatChat.cs" />
+    <Compile Include="DataTransferObject\KeHoach.cs" />
+    <Compile Include="DataTransferObject\KipHoc.cs" />
+    <Compile Include="DataTransferObject\LichCongTac.cs" />
+    <Compile Include="DataTransferObject\NhatKySuDungHoiTruong.cs" />
+    <Compile Include="DataTransferObject\NoiDungCongTac.cs" />
+    <Compile Include="DataTransferObject\NoiDungDSM_TTB.cs" />
+    <Compile Include="DataTransferObject\PhanCong.cs" />
+    <Compile Include="DataTransferObject\Phong.cs" />
+    <Compile Include="DataTransferObject\ThoiGian.cs" />
+    <Compile Include="DataTransferObject\VatChat.cs" />
+    <Compile Include="DataTransferObject\VatChatDiKem.cs" />
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -59,11 +81,11 @@
     <Compile Include="MuonTTBhoctap.Designer.cs">
       <DependentUpon>MuonTTBhoctap.cs</DependentUpon>
     </Compile>
-    <Compile Include="NhatKySuDungGD.cs">
+    <Compile Include="NhatKySuDungGiangDuong.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NhatKySuDungGD.Designer.cs">
-      <DependentUpon>NhatKySuDungGD.cs</DependentUpon>
+    <Compile Include="NhatKySuDungGiangDuong.Designer.cs">
+      <DependentUpon>NhatKySuDungGiangDuong.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -73,8 +95,8 @@
     <EmbeddedResource Include="MuonTTBhoctap.resx">
       <DependentUpon>MuonTTBhoctap.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="NhatKySuDungGD.resx">
-      <DependentUpon>NhatKySuDungGD.cs</DependentUpon>
+    <EmbeddedResource Include="NhatKySuDungGiangDuong.resx">
+      <DependentUpon>NhatKySuDungGiangDuong.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -98,5 +120,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager">
+      <Version>5.0.0</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

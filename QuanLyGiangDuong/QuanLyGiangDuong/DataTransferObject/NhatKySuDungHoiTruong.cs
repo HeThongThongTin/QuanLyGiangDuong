@@ -8,9 +8,11 @@ namespace QuanLyGiangDuong.DataTransferObject
 {
     class NhatKySuDungHoiTruong
     {
-        public int MaNhatKy;
-        public DateTime NgayLap;
-        public DateTime ThoiHan;
-        public string NguoiKiemTra;
+        public string ThoiGianBatDau;
+        public string ThoiGianKetThuc;
+        public int MaLoaiKeHoach;
+        public int MaBuoi ;
+        public string MucDich;
+        public int MaPhong; 
     }
 }

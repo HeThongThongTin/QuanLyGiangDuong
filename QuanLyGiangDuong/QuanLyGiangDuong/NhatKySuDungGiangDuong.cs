@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using QuanLyGiangDuong.DataAccessObject;
 namespace QuanLyGiangDuong
 {
     public partial class NhatKySuDungGD : Form
@@ -25,6 +25,19 @@ namespace QuanLyGiangDuong
         private void label5_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void NhatKySuDungGD_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            DataTable dt = new DataTable();
+            NhatKySuDungHoiTruong_DAO nk = new NhatKySuDungHoiTruong_DAO();
+            dt = nk.loadNhatKy("2020-12-02",1);
+            this.dataGridView_NKSDGD.DataSource = dt;
         }
     }
 }
