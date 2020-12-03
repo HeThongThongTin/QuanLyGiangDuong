@@ -16,7 +16,7 @@ namespace QuanLyGiangDuong
         { 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new NhatKySuDungGD());
+            Application.Run(new FormMain());
         }
     }
 }
