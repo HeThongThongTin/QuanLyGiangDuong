@@ -37,6 +37,18 @@ namespace QuanLyGiangDuong
             DataTable dt = new DataTable();
             NhatKySuDungHoiTruong_DAO nk = new NhatKySuDungHoiTruong_DAO();
             dt = nk.loadNhatKy("2020-12-02",1);
+            for (int i = 0; i < dt.Rows.Count; i++)
+            {
+                var cell = dt.Rows[i][0];
+                if(cell.ToString() == "1")
+                {
+                    dt.Rows[i][0] = true;
+                }
+                else
+                {
+                    dt.Rows[i][0] = false;
+                }
+            }
             this.dataGridView_NKSDGD.DataSource = dt;
         }
     }

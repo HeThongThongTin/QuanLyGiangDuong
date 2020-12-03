@@ -36,19 +36,19 @@
             this.label4 = new System.Windows.Forms.Label();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.dataGridView_NKSDGD = new System.Windows.Forms.DataGridView();
+            this.label5 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.STT = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Phong = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Sang = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.ThoiGian1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Chieu = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.ThoiGian2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ThoiGianBatDau = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ThoiGianKetThuc = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.MucDich = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.GhiChu = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label5 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_NKSDGD)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -127,9 +127,9 @@
             this.STT,
             this.Phong,
             this.Sang,
-            this.ThoiGian1,
             this.Chieu,
-            this.ThoiGian2,
+            this.ThoiGianBatDau,
+            this.ThoiGianKetThuc,
             this.MucDich,
             this.GhiChu});
             this.dataGridView_NKSDGD.Dock = System.Windows.Forms.DockStyle.Bottom;
@@ -139,66 +139,6 @@
             this.dataGridView_NKSDGD.RowTemplate.Height = 24;
             this.dataGridView_NKSDGD.Size = new System.Drawing.Size(1273, 570);
             this.dataGridView_NKSDGD.TabIndex = 11;
-            // 
-            // STT
-            // 
-            this.STT.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.STT.HeaderText = "STT";
-            this.STT.MinimumWidth = 6;
-            this.STT.Name = "STT";
-            // 
-            // Phong
-            // 
-            this.Phong.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Phong.HeaderText = "Tên Phòng";
-            this.Phong.MinimumWidth = 6;
-            this.Phong.Name = "Phong";
-            // 
-            // Sang
-            // 
-            this.Sang.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Sang.HeaderText = "Sáng";
-            this.Sang.MinimumWidth = 6;
-            this.Sang.Name = "Sang";
-            this.Sang.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.Sang.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            // 
-            // ThoiGian1
-            // 
-            this.ThoiGian1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.ThoiGian1.HeaderText = "Thời Gian";
-            this.ThoiGian1.MinimumWidth = 6;
-            this.ThoiGian1.Name = "ThoiGian1";
-            // 
-            // Chieu
-            // 
-            this.Chieu.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Chieu.HeaderText = "Chiều";
-            this.Chieu.MinimumWidth = 6;
-            this.Chieu.Name = "Chieu";
-            this.Chieu.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.Chieu.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            // 
-            // ThoiGian2
-            // 
-            this.ThoiGian2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.ThoiGian2.HeaderText = "Thời Gian";
-            this.ThoiGian2.MinimumWidth = 6;
-            this.ThoiGian2.Name = "ThoiGian2";
-            // 
-            // MucDich
-            // 
-            this.MucDich.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.MucDich.HeaderText = "Mục Đích";
-            this.MucDich.MinimumWidth = 6;
-            this.MucDich.Name = "MucDich";
-            // 
-            // GhiChu
-            // 
-            this.GhiChu.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.GhiChu.HeaderText = "Ghi Chú";
-            this.GhiChu.MinimumWidth = 6;
-            this.GhiChu.Name = "GhiChu";
             // 
             // label5
             // 
@@ -220,15 +160,6 @@
             this.panel1.Size = new System.Drawing.Size(250, 69);
             this.panel1.TabIndex = 13;
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(17, 12);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(201, 16);
-            this.label6.TabIndex = 14;
-            this.label6.Text = "Cán bộ : Nguyễn Mạnh Cường";
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -237,6 +168,15 @@
             this.label7.Size = new System.Drawing.Size(127, 16);
             this.label7.TabIndex = 15;
             this.label7.Text = "Chức vụ : Học viên";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(17, 12);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(201, 16);
+            this.label6.TabIndex = 14;
+            this.label6.Text = "Cán bộ : Nguyễn Mạnh Cường";
             // 
             // button2
             // 
@@ -248,6 +188,80 @@
             this.button2.Text = "Xem";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // STT
+            // 
+            this.STT.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.STT.HeaderText = "STT";
+            this.STT.MinimumWidth = 6;
+            this.STT.Name = "STT";
+            // 
+            // Phong
+            // 
+            this.Phong.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Phong.DataPropertyName = "Ten";
+            this.Phong.HeaderText = "Tên Phòng";
+            this.Phong.MinimumWidth = 6;
+            this.Phong.Name = "Phong";
+            // 
+            // Sang
+            // 
+            this.Sang.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Sang.DataPropertyName = "MaBuoi";
+            this.Sang.FalseValue = false;
+            this.Sang.HeaderText = "Sáng";
+            this.Sang.IndeterminateValue = "";
+            this.Sang.MinimumWidth = 6;
+            this.Sang.Name = "Sang";
+            this.Sang.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Sang.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.Sang.TrueValue = true ;
+            // 
+            // Chieu
+            // 
+            this.Chieu.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Chieu.DataPropertyName = "MaBuoi";
+            this.Chieu.FalseValue = true;
+            this.Chieu.HeaderText = "Chiều";
+            this.Chieu.IndeterminateValue = "";
+            this.Chieu.MinimumWidth = 6;
+            this.Chieu.Name = "Chieu";
+            this.Chieu.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Chieu.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.Chieu.TrueValue = false;
+            // 
+            // ThoiGianBatDau
+            // 
+            this.ThoiGianBatDau.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.ThoiGianBatDau.DataPropertyName = "ThoiGianBatDau";
+            this.ThoiGianBatDau.HeaderText = "TG Bắt Đầu";
+            this.ThoiGianBatDau.MinimumWidth = 6;
+            this.ThoiGianBatDau.Name = "ThoiGianBatDau";
+            // 
+            // ThoiGianKetThuc
+            // 
+            this.ThoiGianKetThuc.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.ThoiGianKetThuc.DataPropertyName = "ThoiGianKetThuc";
+            this.ThoiGianKetThuc.HeaderText = "TG Kết Thúc";
+            this.ThoiGianKetThuc.MinimumWidth = 6;
+            this.ThoiGianKetThuc.Name = "ThoiGianKetThuc";
+            // 
+            // MucDich
+            // 
+            this.MucDich.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.MucDich.DataPropertyName = "MucDichSuDung";
+            this.MucDich.HeaderText = "Mục Đích";
+            this.MucDich.MinimumWidth = 6;
+            this.MucDich.Name = "MucDich";
+            this.MucDich.Width = 153;
+            // 
+            // GhiChu
+            // 
+            this.GhiChu.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.GhiChu.HeaderText = "Ghi Chú";
+            this.GhiChu.MinimumWidth = 6;
+            this.GhiChu.Name = "GhiChu";
+            this.GhiChu.Width = 152;
             // 
             // NhatKySuDungGD
             // 
@@ -286,18 +300,18 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.DataGridView dataGridView_NKSDGD;
-        private System.Windows.Forms.DataGridViewTextBoxColumn STT;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Phong;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn Sang;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ThoiGian1;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn Chieu;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ThoiGian2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn MucDich;
-        private System.Windows.Forms.DataGridViewTextBoxColumn GhiChu;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn STT;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Phong;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn Sang;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn Chieu;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ThoiGianBatDau;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ThoiGianKetThuc;
+        private System.Windows.Forms.DataGridViewTextBoxColumn MucDich;
+        private System.Windows.Forms.DataGridViewTextBoxColumn GhiChu;
     }
 }
