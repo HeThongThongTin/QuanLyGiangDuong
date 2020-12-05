@@ -51,5 +51,7 @@ namespace QuanLyGiangDuong
             }
             this.dataGridView_NKSDGD.DataSource = dt;
         }
+
+        
     }
 }

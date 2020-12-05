@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="ConnectDatabase.cs" />
     <Compile Include="DataAccessObject\DataProvider.cs" />
+    <Compile Include="DataAccessObject\NoiDungMuonTTB_DAO.cs" />
     <Compile Include="DataAccessObject\NhatKySuDungHoiTruong_DAO.cs" />
     <Compile Include="DataTransferObject\Buoi.cs" />
     <Compile Include="DataTransferObject\CanBo.cs" />

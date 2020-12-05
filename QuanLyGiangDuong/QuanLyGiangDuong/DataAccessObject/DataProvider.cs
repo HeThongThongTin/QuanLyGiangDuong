@@ -21,7 +21,7 @@ namespace QuanLyGiangDuong.DataAccessObject
             adapter.Fill(dt);
             return dt;
         }
-        public void Excute(string sql)
+        public void Execute(string sql)
         {
             connect.Open();
             SqlCommand command = new SqlCommand(sql, connect);
