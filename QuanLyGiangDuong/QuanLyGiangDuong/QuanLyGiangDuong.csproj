@@ -60,6 +60,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChiTietPhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChiTietPhong.Designer.cs">
+      <DependentUpon>ChiTietPhong.cs</DependentUpon>
+    </Compile>
     <Compile Include="ConnectDatabase.cs" />
     <Compile Include="DataAccessObject\DataProvider.cs" />
     <Compile Include="DataAccessObject\NoiDungMuonTTB_DAO.cs" />
@@ -102,14 +108,11 @@
     <Compile Include="MuonTTBhoctap.Designer.cs">
       <DependentUpon>MuonTTBhoctap.cs</DependentUpon>
     </Compile>
-    <Compile Include="NhatKySuDungGiangDuong.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="NhatKySuDungGiangDuong.Designer.cs">
-      <DependentUpon>NhatKySuDungGiangDuong.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ChiTietPhong.resx">
+      <DependentUpon>ChiTietPhong.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
     </EmbeddedResource>
@@ -118,9 +121,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MuonTTBhoctap.resx">
       <DependentUpon>MuonTTBhoctap.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="NhatKySuDungGiangDuong.resx">
-      <DependentUpon>NhatKySuDungGiangDuong.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
