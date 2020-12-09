@@ -49,5 +49,15 @@ namespace QuanLyGiangDuong
         {
             
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            this.xtraTabPageKeHoachTop.PageVisible = true;
+            this.xtraTabPageKeHoachTop.PageEnabled = true;
+            this.xtraTabPageKeHoachTop.Show();
+            this.xtraTabPageDSKH.Show();
+            KeHoach_DAO kh = new KeHoach_DAO();
+            this.dataGridViewDSKH.DataSource = kh.load_DanhSach();
+        }
     }
 }
