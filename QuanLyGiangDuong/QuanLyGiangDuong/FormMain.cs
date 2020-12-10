@@ -17,11 +17,6 @@ namespace QuanLyGiangDuong
             InitializeComponent();
         }
 
-        private void splitContainer2_Panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
         private void button2_Click(object sender, EventArgs e)
         {
             this.xtraTabPageNhatKySDGDTop.PageVisible = true;
@@ -52,12 +47,119 @@ namespace QuanLyGiangDuong
 
         private void button8_Click(object sender, EventArgs e)
         {
-            this.xtraTabPageKeHoachTop.PageVisible = true;
-            this.xtraTabPageKeHoachTop.PageEnabled = true;
-            this.xtraTabPageKeHoachTop.Show();
-            this.xtraTabPageDSKH.Show();
-            KeHoach_DAO kh = new KeHoach_DAO();
-            this.dataGridViewDSKH.DataSource = kh.load_DanhSach();
+            //this.xtraTabPageKeHoachTop.PageVisible = true;
+            //this.xtraTabPageKeHoachTop.PageEnabled = true;
+            //this.xtraTabPageKeHoachTop.Show();
+            //this.xtraTabPageDSKH.Show();
+            //KeHoach_DAO kh = new KeHoach_DAO();
+            //this.dataGridViewDSKH.DataSource = kh.load_DanhSach();
+        }
+
+        private void FormMain_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'quanLyGiangDuongDataSet.VatChat' table. You can move, or remove it, as needed.
+            this.vatChatTableAdapter.Fill(this.quanLyGiangDuongDataSet.VatChat);
+
+        }
+
+        private void DSVC_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.ColumnIndex == 6)
+            {
+                pn_sua_qlvc.Visible = true;
+                pn_sua_qlvc.Dock = DockStyle.Fill;
+
+                btn_them_qlvc.Visible = false;
+                tb_mavc_suavc.Text = dtgv_dsvc.Rows[e.RowIndex].Cells[0].Value.ToString();
+                tb_madm_suavc.Text = dtgv_dsvc.Rows[e.RowIndex].Cells[1].Value.ToString();
+                tb_tenvc_suavc.Text = dtgv_dsvc.Rows[e.RowIndex].Cells[2].Value.ToString();
+                tb_giatien_suavc.Text = dtgv_dsvc.Rows[e.RowIndex].Cells[3].Value.ToString();
+                tb_ngaynhap_suavc.Text = dtgv_dsvc.Rows[e.RowIndex].Cells[4].Value.ToString();
+                lstbx_trangthai_suavc.Text = dtgv_dsvc.Rows[e.RowIndex].Cells[5].Value.ToString();
+            }
+            else
+            {
+                if (e.ColumnIndex == 7)
+                {
+                    DialogResult result = MessageBox.Show("Bạn có chắc muốn xóa môn học?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                    if (result == DialogResult.Yes)
+                    {
+                        DanhSachVatChat_DAO ds = new DanhSachVatChat_DAO();
+                        ds.XoaVC(dtgv_dsvc.Rows[e.RowIndex].Cells[0].Value.ToString());
+                        
+                        FormMain_Load(sender, e);
+                    }
+                }
+            }
+        }
+
+        private void btn_them_qlvc_Click(object sender, EventArgs e)
+        {
+            pn_them_qlvc.Visible = true;
+            pn_them_qlvc.Dock = DockStyle.Fill;
+            btn_them_qlvc.Visible = false;
+            pn_sua_qlvc.Visible = false;
+        }
+
+        private void btn_huy_themvc_Click(object sender, EventArgs e)
+        {
+            btn_them_qlvc.Visible = true;
+            pn_them_qlvc.Visible = false;
+            FormMain_Load(sender, e);
+        }
+
+        private void btn_them_themvc_Click(object sender, EventArgs e)
+        {
+            string a;
+            DanhSachVatChat_DAO ds = new DanhSachVatChat_DAO();
+            if (lstbx_trangthai_themvc.Text == "Tốt")
+            {
+                a = "1";
+            }
+            else
+            {
+                a = "0";
+            }
+            ds.ThemVC(tb_mavc_themvc.Text, tb_madm_themvc.Text, tb_tenvc_themvc.Text, tb_giatien_themvc.Text, tb_ngaynhap_themvc.Text, a);
+            tb_mavc_themvc.Text = "";
+            tb_madm_themvc.Text = "";
+            tb_tenvc_themvc.Text = "";
+            tb_giatien_themvc.Text = "";
+            tb_ngaynhap_themvc.Text = "";
+            lstbx_trangthai_themvc.Text = "Tốt";
+        }
+
+        private void btn_huy_suavc_Click(object sender, EventArgs e)
+        {
+            pn_sua_qlvc.Visible = false;
+            btn_them_qlvc.Visible = true;
+            FormMain_Load(sender, e);
+        }
+
+        private void btn_sua_suavc_Click(object sender, EventArgs e)
+        {
+            string a;
+            DanhSachVatChat_DAO ds = new DanhSachVatChat_DAO();
+            btn_them_qlvc.Visible = true;
+            if (lstbx_trangthai_suavc.Text == "Tốt")
+            {
+                a = "1";
+            }
+            else
+            {
+                a = "0";
+            }
+            ds.SuaVC(tb_mavc_suavc.Text, tb_tenvc_suavc.Text, tb_giatien_suavc.Text, tb_ngaynhap_suavc.Text, a);
+            pn_sua_qlvc.Visible = false;
+            FormMain_Load(sender, e);
+            
+        }
+
+        private void btn_refresh_Click(object sender, EventArgs e)
+        {
+            this.vatChatTableAdapter.Fill(this.quanLyGiangDuongDataSet.VatChat);
+            dtgv_dsvc.Update();
+            dtgv_dsvc.Refresh();
         }
 
         private void button12_Click(object sender, EventArgs e)
