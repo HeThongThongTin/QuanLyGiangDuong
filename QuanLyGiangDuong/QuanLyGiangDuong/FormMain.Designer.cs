@@ -30,8 +30,8 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             this.xtraTabbedMdiManager1 = new DevExpress.XtraTabbedMdi.XtraTabbedMdiManager(this.components);
             this.xtraTabControl2 = new DevExpress.XtraTab.XtraTabControl();
             this.xtraTabPageNhatKyMTBLeft = new DevExpress.XtraTab.XtraTabPage();
@@ -308,16 +308,6 @@
             this.xtraTabControl6 = new DevExpress.XtraTab.XtraTabControl();
             this.xtraTabPageNhatKyMTTB_Top = new DevExpress.XtraTab.XtraTabPage();
             this.dtgv_MuonTTB = new System.Windows.Forms.DataGridView();
-            this.date = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cadetname = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.phone = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.classname = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.room = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.shift = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.equipment = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cadet_sign_borrow = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.modify = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.delete = new System.Windows.Forms.DataGridViewButtonColumn();
             this.xtraTabPageKeHoachTop = new DevExpress.XtraTab.XtraTabPage();
             this.xtraTabControl4 = new DevExpress.XtraTab.XtraTabControl();
             this.xtraTabPageDSKH = new DevExpress.XtraTab.XtraTabPage();
@@ -381,6 +371,7 @@
             this.vatChatTableAdapter = new QuanLyGiangDuong.QuanLyGiangDuongDataSetTableAdapters.VatChatTableAdapter();
             this.hoiTruongTableAdapter = new QuanLyGiangDuong.QuanLyGiangDuongDataSetTableAdapters.HoiTruongTableAdapter();
             this.phongTableAdapter = new QuanLyGiangDuong.QuanLyGiangDuongDataSetTableAdapters.PhongTableAdapter();
+            this.button22 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManager1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl2)).BeginInit();
             this.xtraTabControl2.SuspendLayout();
@@ -1825,8 +1816,8 @@
             // 
             this.dataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.dataGridViewTextBoxColumn1.DataPropertyName = "MaHoiTruong";
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle7;
             this.dataGridViewTextBoxColumn1.HeaderText = "Mã hội trường";
             this.dataGridViewTextBoxColumn1.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
@@ -1843,8 +1834,8 @@
             // 
             this.dataGridViewTextBoxColumn2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.dataGridViewTextBoxColumn2.DataPropertyName = "Ten";
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dataGridViewTextBoxColumn2.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataGridViewTextBoxColumn2.DefaultCellStyle = dataGridViewCellStyle8;
             this.dataGridViewTextBoxColumn2.HeaderText = "Tên hội trường";
             this.dataGridViewTextBoxColumn2.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
@@ -3599,6 +3590,7 @@
             // 
             // xtraTabPageNhatKyMTTB_Top
             // 
+            this.xtraTabPageNhatKyMTTB_Top.Controls.Add(this.button22);
             this.xtraTabPageNhatKyMTTB_Top.Controls.Add(this.dtgv_MuonTTB);
             this.xtraTabPageNhatKyMTTB_Top.Name = "xtraTabPageNhatKyMTTB_Top";
             this.xtraTabPageNhatKyMTTB_Top.Size = new System.Drawing.Size(1121, 672);
@@ -3610,100 +3602,13 @@
             this.dtgv_MuonTTB.AllowUserToOrderColumns = true;
             this.dtgv_MuonTTB.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
             this.dtgv_MuonTTB.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgv_MuonTTB.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.date,
-            this.cadetname,
-            this.phone,
-            this.classname,
-            this.room,
-            this.shift,
-            this.equipment,
-            this.cadet_sign_borrow,
-            this.modify,
-            this.delete});
-            this.dtgv_MuonTTB.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dtgv_MuonTTB.Location = new System.Drawing.Point(0, 0);
+            this.dtgv_MuonTTB.Location = new System.Drawing.Point(20, 80);
             this.dtgv_MuonTTB.Name = "dtgv_MuonTTB";
             this.dtgv_MuonTTB.RowHeadersWidth = 51;
             this.dtgv_MuonTTB.RowTemplate.Height = 24;
-            this.dtgv_MuonTTB.Size = new System.Drawing.Size(1121, 672);
+            this.dtgv_MuonTTB.Size = new System.Drawing.Size(1073, 516);
             this.dtgv_MuonTTB.TabIndex = 2;
-            // 
-            // date
-            // 
-            this.date.HeaderText = "Ngày/tháng";
-            this.date.MinimumWidth = 6;
-            this.date.Name = "date";
-            this.date.Width = 125;
-            // 
-            // cadetname
-            // 
-            this.cadetname.HeaderText = "Họ và tên";
-            this.cadetname.MinimumWidth = 6;
-            this.cadetname.Name = "cadetname";
-            this.cadetname.Width = 160;
-            // 
-            // phone
-            // 
-            this.phone.HeaderText = "Số điện thoại";
-            this.phone.MinimumWidth = 6;
-            this.phone.Name = "phone";
-            this.phone.Width = 120;
-            // 
-            // classname
-            // 
-            this.classname.HeaderText = "Lớp";
-            this.classname.MinimumWidth = 6;
-            this.classname.Name = "classname";
-            this.classname.Width = 125;
-            // 
-            // room
-            // 
-            this.room.HeaderText = "Phòng học";
-            this.room.MinimumWidth = 6;
-            this.room.Name = "room";
-            this.room.Width = 110;
-            // 
-            // shift
-            // 
-            this.shift.HeaderText = "Kíp học";
-            this.shift.MinimumWidth = 6;
-            this.shift.Name = "shift";
-            this.shift.Width = 125;
-            // 
-            // equipment
-            // 
-            this.equipment.HeaderText = "Tên TTB";
-            this.equipment.MinimumWidth = 6;
-            this.equipment.Name = "equipment";
-            this.equipment.Width = 150;
-            // 
-            // cadet_sign_borrow
-            // 
-            this.cadet_sign_borrow.HeaderText = "Đã trả";
-            this.cadet_sign_borrow.MinimumWidth = 6;
-            this.cadet_sign_borrow.Name = "cadet_sign_borrow";
-            this.cadet_sign_borrow.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.cadet_sign_borrow.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.cadet_sign_borrow.Width = 125;
-            // 
-            // modify
-            // 
-            this.modify.HeaderText = "Sửa";
-            this.modify.MinimumWidth = 6;
-            this.modify.Name = "modify";
-            this.modify.Text = "Sửa";
-            this.modify.UseColumnTextForButtonValue = true;
-            this.modify.Width = 125;
-            // 
-            // delete
-            // 
-            this.delete.HeaderText = "Xóa";
-            this.delete.MinimumWidth = 6;
-            this.delete.Name = "delete";
-            this.delete.Text = "Xóa";
-            this.delete.UseColumnTextForButtonValue = true;
-            this.delete.Width = 125;
+            this.dtgv_MuonTTB.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgv_MuonTTB_CellContentClick);
             // 
             // xtraTabPageKeHoachTop
             // 
@@ -4385,6 +4290,16 @@
             // 
             this.phongTableAdapter.ClearBeforeFill = true;
             // 
+            // button22
+            // 
+            this.button22.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button22.Location = new System.Drawing.Point(20, 13);
+            this.button22.Name = "button22";
+            this.button22.Size = new System.Drawing.Size(131, 51);
+            this.button22.TabIndex = 3;
+            this.button22.Text = "THÊM";
+            this.button22.UseVisualStyleBackColor = true;
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -4696,16 +4611,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn MaKeHoach;
         private DevExpress.XtraTab.XtraTabPage xtraTabPageNhatKyMTTB_Top;
         private System.Windows.Forms.DataGridView dtgv_MuonTTB;
-        private System.Windows.Forms.DataGridViewTextBoxColumn date;
-        private System.Windows.Forms.DataGridViewTextBoxColumn cadetname;
-        private System.Windows.Forms.DataGridViewTextBoxColumn phone;
-        private System.Windows.Forms.DataGridViewTextBoxColumn classname;
-        private System.Windows.Forms.DataGridViewTextBoxColumn room;
-        private System.Windows.Forms.DataGridViewTextBoxColumn shift;
-        private System.Windows.Forms.DataGridViewTextBoxColumn equipment;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn cadet_sign_borrow;
-        private System.Windows.Forms.DataGridViewButtonColumn modify;
-        private System.Windows.Forms.DataGridViewButtonColumn delete;
         private DevExpress.XtraTab.XtraTabPage xtraTabPageKeHoachTop;
         private DevExpress.XtraTab.XtraTabControl xtraTabControl4;
         private DevExpress.XtraTab.XtraTabPage xtraTabPageDSKH;
@@ -4875,5 +4780,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn NgaySinh_CB;
         private System.Windows.Forms.DataGridViewTextBoxColumn GioiTinh_CB;
         private System.Windows.Forms.DataGridViewTextBoxColumn SDT_CB;
+        private System.Windows.Forms.Button button22;
     }
 }
