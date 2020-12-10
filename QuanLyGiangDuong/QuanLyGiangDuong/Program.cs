@@ -9,7 +9,7 @@ namespace QuanLyGiangDuong
     static class Program
     {
         /// <summary>
-        /// The main entry poaaaint for the application.
+        /// The main enaaatry poaaaint for the application.
         /// </summary>
         [STAThread]
         static void Main()
