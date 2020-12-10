@@ -14,6 +14,15 @@ namespace QuanLyGiangDuong.DataAccessObject
     {
         static string provider = ConfigurationManager.ConnectionStrings["Conn"].ToString();  // get connection string from app.config
         SqlConnection connect = new SqlConnection(provider);
+        
+        public bool Check(string sql)
+        {
+            connect.Open();
+            SqlCommand command = new SqlCommand(sql, connect);
+            var result =  command.ExecuteScalar();
+            return (bool) result;
+        }
+        
         public DataTable GetData(string sql)
         {
             DataTable dt = new DataTable();
