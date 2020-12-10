@@ -4091,10 +4091,10 @@
             // dtgv_dsphong
             // 
             this.dtgv_dsphong.AutoGenerateColumns = false;
-            this.dtgv_dsphong.BackgroundColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.dtgv_dsphong.BackgroundColor = System.Drawing.SystemColors.ActiveBorder;
             dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Tahoma", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -4107,19 +4107,19 @@
             this.tangDataGridViewTextBoxColumn,
             this.maHoiTruongDataGridViewTextBoxColumn1});
             this.dtgv_dsphong.DataSource = this.phongBindingSource;
-            this.dtgv_dsphong.Location = new System.Drawing.Point(22, 52);
+            this.dtgv_dsphong.Location = new System.Drawing.Point(19, 51);
             this.dtgv_dsphong.Name = "dtgv_dsphong";
             this.dtgv_dsphong.RowTemplate.Height = 24;
-            this.dtgv_dsphong.Size = new System.Drawing.Size(510, 362);
+            this.dtgv_dsphong.Size = new System.Drawing.Size(584, 362);
             this.dtgv_dsphong.TabIndex = 0;
             // 
             // grpbx_dsphong
             // 
             this.grpbx_dsphong.Controls.Add(this.dtgv_dsphong);
             this.grpbx_dsphong.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold);
-            this.grpbx_dsphong.Location = new System.Drawing.Point(514, 29);
+            this.grpbx_dsphong.Location = new System.Drawing.Point(473, 29);
             this.grpbx_dsphong.Name = "grpbx_dsphong";
-            this.grpbx_dsphong.Size = new System.Drawing.Size(553, 440);
+            this.grpbx_dsphong.Size = new System.Drawing.Size(624, 440);
             this.grpbx_dsphong.TabIndex = 1;
             this.grpbx_dsphong.TabStop = false;
             this.grpbx_dsphong.Text = "Danh sách phòng";
@@ -4140,9 +4140,10 @@
             this.dtgv_dsht.AllowUserToAddRows = false;
             this.dtgv_dsht.AllowUserToOrderColumns = true;
             this.dtgv_dsht.AutoGenerateColumns = false;
+            this.dtgv_dsht.BackgroundColor = System.Drawing.SystemColors.ActiveBorder;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Tahoma", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -4153,10 +4154,10 @@
             this.maHoiTruongDataGridViewTextBoxColumn,
             this.tenDataGridViewTextBoxColumn});
             this.dtgv_dsht.DataSource = this.hoiTruongBindingSource;
-            this.dtgv_dsht.Location = new System.Drawing.Point(22, 52);
+            this.dtgv_dsht.Location = new System.Drawing.Point(15, 65);
             this.dtgv_dsht.Name = "dtgv_dsht";
             this.dtgv_dsht.RowTemplate.Height = 24;
-            this.dtgv_dsht.Size = new System.Drawing.Size(370, 224);
+            this.dtgv_dsht.Size = new System.Drawing.Size(385, 224);
             this.dtgv_dsht.TabIndex = 0;
             // 
             // hoiTruongBindingSource
@@ -4200,24 +4201,27 @@
             this.maPhongDataGridViewTextBoxColumn.DataPropertyName = "MaPhong";
             this.maPhongDataGridViewTextBoxColumn.HeaderText = "Mã phòng";
             this.maPhongDataGridViewTextBoxColumn.Name = "maPhongDataGridViewTextBoxColumn";
+            this.maPhongDataGridViewTextBoxColumn.Width = 140;
             // 
             // tenDataGridViewTextBoxColumn1
             // 
             this.tenDataGridViewTextBoxColumn1.DataPropertyName = "Ten";
             this.tenDataGridViewTextBoxColumn1.HeaderText = "Tên phòng";
             this.tenDataGridViewTextBoxColumn1.Name = "tenDataGridViewTextBoxColumn1";
+            this.tenDataGridViewTextBoxColumn1.Width = 140;
             // 
             // tangDataGridViewTextBoxColumn
             // 
             this.tangDataGridViewTextBoxColumn.DataPropertyName = "Tang";
-            this.tangDataGridViewTextBoxColumn.HeaderText = "Tang";
+            this.tangDataGridViewTextBoxColumn.HeaderText = "Tầng";
             this.tangDataGridViewTextBoxColumn.Name = "tangDataGridViewTextBoxColumn";
             // 
             // maHoiTruongDataGridViewTextBoxColumn1
             // 
             this.maHoiTruongDataGridViewTextBoxColumn1.DataPropertyName = "MaHoiTruong";
-            this.maHoiTruongDataGridViewTextBoxColumn1.HeaderText = "MaHoiTruong";
+            this.maHoiTruongDataGridViewTextBoxColumn1.HeaderText = "Mã hội trường";
             this.maHoiTruongDataGridViewTextBoxColumn1.Name = "maHoiTruongDataGridViewTextBoxColumn1";
+            this.maHoiTruongDataGridViewTextBoxColumn1.Width = 150;
             // 
             // FormMain
             // 
