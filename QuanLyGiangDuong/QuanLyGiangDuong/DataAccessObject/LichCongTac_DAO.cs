@@ -11,8 +11,8 @@ namespace QuanLyGiangDuong.DataAccessObject
     {
         public DataTable loadLichCongTac()
         {
-            string sqlString = $"exec XemLichCongTac";
-            return GetData(sqlString);
+            string sql = "Exec XemLichCongTac";
+            return GetData(sql);
         }
     }
 }

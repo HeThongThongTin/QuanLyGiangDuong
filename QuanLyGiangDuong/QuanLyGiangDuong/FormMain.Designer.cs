@@ -30,8 +30,8 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             this.xtraTabbedMdiManager1 = new DevExpress.XtraTabbedMdi.XtraTabbedMdiManager(this.components);
             this.xtraTabControl2 = new DevExpress.XtraTab.XtraTabControl();
             this.xtraTabPageNhatKyMTBLeft = new DevExpress.XtraTab.XtraTabPage();
@@ -168,11 +168,6 @@
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.dataGridViewDSCB = new System.Windows.Forms.DataGridView();
-            this.MaCanBo_CB = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TenCanBo_CB = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NgaySinh_CB = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.GioiTinh_CB = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.SDT_CB = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.xtraTabPageLCT = new DevExpress.XtraTab.XtraTabPage();
             this.panel16 = new System.Windows.Forms.Panel();
             this.label43 = new System.Windows.Forms.Label();
@@ -394,6 +389,11 @@
             this.tenDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tangDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.maHoiTruongDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.MaCanBo_CB = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TenCanBo_CB = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NgaySinh_CB = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.GioiTinh_CB = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SDT_CB = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManager1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl2)).BeginInit();
             this.xtraTabControl2.SuspendLayout();
@@ -1861,8 +1861,8 @@
             // 
             this.dataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.dataGridViewTextBoxColumn1.DataPropertyName = "MaHoiTruong";
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle7;
             this.dataGridViewTextBoxColumn1.HeaderText = "Mã hội trường";
             this.dataGridViewTextBoxColumn1.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
@@ -1879,8 +1879,8 @@
             // 
             this.dataGridViewTextBoxColumn2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.dataGridViewTextBoxColumn2.DataPropertyName = "Ten";
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dataGridViewTextBoxColumn2.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataGridViewTextBoxColumn2.DefaultCellStyle = dataGridViewCellStyle8;
             this.dataGridViewTextBoxColumn2.HeaderText = "Tên hội trường";
             this.dataGridViewTextBoxColumn2.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
@@ -2063,45 +2063,6 @@
             this.dataGridViewDSCB.RowTemplate.Height = 24;
             this.dataGridViewDSCB.Size = new System.Drawing.Size(970, 587);
             this.dataGridViewDSCB.TabIndex = 5;
-            // 
-            // MaCanBo_CB
-            // 
-            this.MaCanBo_CB.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.MaCanBo_CB.DataPropertyName = "MaCanBo";
-            this.MaCanBo_CB.HeaderText = "Mã cán bộ";
-            this.MaCanBo_CB.MinimumWidth = 6;
-            this.MaCanBo_CB.Name = "MaCanBo_CB";
-            // 
-            // TenCanBo_CB
-            // 
-            this.TenCanBo_CB.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.TenCanBo_CB.DataPropertyName = "TenCanBo";
-            this.TenCanBo_CB.HeaderText = "Tên cán bộ";
-            this.TenCanBo_CB.MinimumWidth = 6;
-            this.TenCanBo_CB.Name = "TenCanBo_CB";
-            // 
-            // NgaySinh_CB
-            // 
-            this.NgaySinh_CB.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.NgaySinh_CB.HeaderText = "Ngày Sinh";
-            this.NgaySinh_CB.MinimumWidth = 6;
-            this.NgaySinh_CB.Name = "NgaySinh_CB";
-            // 
-            // GioiTinh_CB
-            // 
-            this.GioiTinh_CB.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.GioiTinh_CB.DataPropertyName = "GioiTinh";
-            this.GioiTinh_CB.HeaderText = "Giới tính";
-            this.GioiTinh_CB.MinimumWidth = 6;
-            this.GioiTinh_CB.Name = "GioiTinh_CB";
-            // 
-            // SDT_CB
-            // 
-            this.SDT_CB.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.SDT_CB.DataPropertyName = "SDT";
-            this.SDT_CB.HeaderText = "Số điện thoại";
-            this.SDT_CB.MinimumWidth = 6;
-            this.SDT_CB.Name = "SDT_CB";
             // 
             // xtraTabPageLCT
             // 
@@ -4525,6 +4486,46 @@
             this.maHoiTruongDataGridViewTextBoxColumn1.MinimumWidth = 6;
             this.maHoiTruongDataGridViewTextBoxColumn1.Name = "maHoiTruongDataGridViewTextBoxColumn1";
             // 
+            // MaCanBo_CB
+            // 
+            this.MaCanBo_CB.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.MaCanBo_CB.DataPropertyName = "MaCanBo";
+            this.MaCanBo_CB.HeaderText = "Mã cán bộ";
+            this.MaCanBo_CB.MinimumWidth = 6;
+            this.MaCanBo_CB.Name = "MaCanBo_CB";
+            // 
+            // TenCanBo_CB
+            // 
+            this.TenCanBo_CB.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.TenCanBo_CB.DataPropertyName = "TenCanBo";
+            this.TenCanBo_CB.HeaderText = "Tên cán bộ";
+            this.TenCanBo_CB.MinimumWidth = 6;
+            this.TenCanBo_CB.Name = "TenCanBo_CB";
+            // 
+            // NgaySinh_CB
+            // 
+            this.NgaySinh_CB.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.NgaySinh_CB.DataPropertyName = "NgaySinh";
+            this.NgaySinh_CB.HeaderText = "Ngày Sinh";
+            this.NgaySinh_CB.MinimumWidth = 6;
+            this.NgaySinh_CB.Name = "NgaySinh_CB";
+            // 
+            // GioiTinh_CB
+            // 
+            this.GioiTinh_CB.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.GioiTinh_CB.DataPropertyName = "GioiTinh";
+            this.GioiTinh_CB.HeaderText = "Giới tính";
+            this.GioiTinh_CB.MinimumWidth = 6;
+            this.GioiTinh_CB.Name = "GioiTinh_CB";
+            // 
+            // SDT_CB
+            // 
+            this.SDT_CB.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.SDT_CB.DataPropertyName = "SDT";
+            this.SDT_CB.HeaderText = "Số điện thoại";
+            this.SDT_CB.MinimumWidth = 6;
+            this.SDT_CB.Name = "SDT_CB";
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
@@ -5007,11 +5008,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn ThoiGianKetThuc_PC;
         private System.Windows.Forms.DataGridViewTextBoxColumn GhiChu_CV;
         private System.Windows.Forms.DataGridViewTextBoxColumn NguoiLap_LCT;
-        private System.Windows.Forms.DataGridViewTextBoxColumn MaCanBo_CB;
-        private System.Windows.Forms.DataGridViewTextBoxColumn TenCanBo_CB;
-        private System.Windows.Forms.DataGridViewTextBoxColumn NgaySinh_CB;
-        private System.Windows.Forms.DataGridViewTextBoxColumn GioiTinh_CB;
-        private System.Windows.Forms.DataGridViewTextBoxColumn SDT_CB;
         private System.Windows.Forms.Button button21;
         private System.Windows.Forms.Panel panel18;
         private System.Windows.Forms.Label label45;
@@ -5030,5 +5026,10 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn tenDataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn tangDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn maHoiTruongDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn MaCanBo_CB;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TenCanBo_CB;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NgaySinh_CB;
+        private System.Windows.Forms.DataGridViewTextBoxColumn GioiTinh_CB;
+        private System.Windows.Forms.DataGridViewTextBoxColumn SDT_CB;
     }
 }
