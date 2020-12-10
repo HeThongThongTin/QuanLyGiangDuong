@@ -30,8 +30,13 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
+<<<<<<< HEAD
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+=======
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+>>>>>>> parent of 67308c3... aaaaa
             this.xtraTabbedMdiManager1 = new DevExpress.XtraTabbedMdi.XtraTabbedMdiManager(this.components);
             this.xtraTabControl2 = new DevExpress.XtraTab.XtraTabControl();
             this.xtraTabPageNhatKyMTBLeft = new DevExpress.XtraTab.XtraTabPage();
@@ -724,6 +729,7 @@
             this.panelTabCanHo.Name = "panelTabCanHo";
             this.panelTabCanHo.Size = new System.Drawing.Size(266, 742);
             this.panelTabCanHo.TabIndex = 0;
+<<<<<<< HEAD
             // 
             // button26
             // 
@@ -751,6 +757,8 @@
             this.button24.TabIndex = 20;
             this.button24.Text = "Danh sách hội trường";
             this.button24.UseVisualStyleBackColor = true;
+=======
+>>>>>>> parent of 67308c3... aaaaa
             // 
             // panel23
             // 
@@ -1976,8 +1984,13 @@
             // 
             this.dataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.dataGridViewTextBoxColumn1.DataPropertyName = "MaHoiTruong";
+<<<<<<< HEAD
             dataGridViewCellStyle1.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle1;
+=======
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle7;
+>>>>>>> parent of 67308c3... aaaaa
             this.dataGridViewTextBoxColumn1.HeaderText = "Mã hội trường";
             this.dataGridViewTextBoxColumn1.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
@@ -1994,8 +2007,13 @@
             // 
             this.dataGridViewTextBoxColumn2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.dataGridViewTextBoxColumn2.DataPropertyName = "Ten";
+<<<<<<< HEAD
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dataGridViewTextBoxColumn2.DefaultCellStyle = dataGridViewCellStyle2;
+=======
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataGridViewTextBoxColumn2.DefaultCellStyle = dataGridViewCellStyle8;
+>>>>>>> parent of 67308c3... aaaaa
             this.dataGridViewTextBoxColumn2.HeaderText = "Tên hội trường";
             this.dataGridViewTextBoxColumn2.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
