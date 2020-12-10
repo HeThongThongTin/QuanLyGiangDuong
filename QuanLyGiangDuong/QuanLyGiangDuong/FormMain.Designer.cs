@@ -30,8 +30,8 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
             this.xtraTabbedMdiManager1 = new DevExpress.XtraTabbedMdi.XtraTabbedMdiManager(this.components);
             this.xtraTabControl2 = new DevExpress.XtraTab.XtraTabControl();
             this.xtraTabPageNhatKyMTBLeft = new DevExpress.XtraTab.XtraTabPage();
@@ -308,16 +308,6 @@
             this.xtraTabControl6 = new DevExpress.XtraTab.XtraTabControl();
             this.xtraTabPageNhatKyMTTB_Top = new DevExpress.XtraTab.XtraTabPage();
             this.dtgv_MuonTTB = new System.Windows.Forms.DataGridView();
-            this.date = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cadetname = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.phone = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.classname = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.room = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.shift = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.equipment = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cadet_sign_borrow = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.modify = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.delete = new System.Windows.Forms.DataGridViewButtonColumn();
             this.xtraTabPageKeHoachTop = new DevExpress.XtraTab.XtraTabPage();
             this.xtraTabControl4 = new DevExpress.XtraTab.XtraTabControl();
             this.xtraTabPageDSKH = new DevExpress.XtraTab.XtraTabPage();
@@ -381,6 +371,39 @@
             this.vatChatTableAdapter = new QuanLyGiangDuong.QuanLyGiangDuongDataSetTableAdapters.VatChatTableAdapter();
             this.hoiTruongTableAdapter = new QuanLyGiangDuong.QuanLyGiangDuongDataSetTableAdapters.HoiTruongTableAdapter();
             this.phongTableAdapter = new QuanLyGiangDuong.QuanLyGiangDuongDataSetTableAdapters.PhongTableAdapter();
+            this.btn_them_nkmtb = new System.Windows.Forms.Button();
+            this.pn_them_nkmtb = new System.Windows.Forms.Panel();
+            this.btn_cancel_them_nkmtb = new System.Windows.Forms.Button();
+            this.btn_add_nkmtb = new System.Windows.Forms.Button();
+            this.tb_kip_themnkmtb = new System.Windows.Forms.TextBox();
+            this.tb_lop_themnkmtb = new System.Windows.Forms.TextBox();
+            this.tb_sdt_themnkmtb = new System.Windows.Forms.TextBox();
+            this.tb_hovaten_themnkmtb = new System.Windows.Forms.TextBox();
+            this.tb_ngaythang_themnkmtb = new System.Windows.Forms.TextBox();
+            this.lb_kip_themnkmtb = new System.Windows.Forms.Label();
+            this.lb_phonghoc_themnkmtb = new System.Windows.Forms.Label();
+            this.lb_lop_themnkmtb = new System.Windows.Forms.Label();
+            this.lb_sdt_themnkmtb = new System.Windows.Forms.Label();
+            this.lb_hovaten_themnkmtb = new System.Windows.Forms.Label();
+            this.lb_ngaythang_themnkmtb = new System.Windows.Forms.Label();
+            this.pn_sua_nkmtb = new System.Windows.Forms.Panel();
+            this.button24 = new System.Windows.Forms.Button();
+            this.button25 = new System.Windows.Forms.Button();
+            this.listBox2 = new System.Windows.Forms.ListBox();
+            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.textBox20 = new System.Windows.Forms.TextBox();
+            this.textBox21 = new System.Windows.Forms.TextBox();
+            this.textBox22 = new System.Windows.Forms.TextBox();
+            this.textBox23 = new System.Windows.Forms.TextBox();
+            this.label92 = new System.Windows.Forms.Label();
+            this.label93 = new System.Windows.Forms.Label();
+            this.label94 = new System.Windows.Forms.Label();
+            this.label95 = new System.Windows.Forms.Label();
+            this.label96 = new System.Windows.Forms.Label();
+            this.label97 = new System.Windows.Forms.Label();
+            this.lb_tenttb_themnkmtb = new System.Windows.Forms.Label();
+            this.tb_tenttb_themnkmtb = new System.Windows.Forms.TextBox();
+            this.lstbx_phong_themnkmtb = new System.Windows.Forms.ListBox();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManager1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl2)).BeginInit();
             this.xtraTabControl2.SuspendLayout();
@@ -487,6 +510,8 @@
             this.panel48.SuspendLayout();
             this.panel54.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewAccount)).BeginInit();
+            this.pn_them_nkmtb.SuspendLayout();
+            this.pn_sua_nkmtb.SuspendLayout();
             this.SuspendLayout();
             // 
             // xtraTabbedMdiManager1
@@ -1796,7 +1821,7 @@
             // 
             this.xtraTabPageDSHT.Controls.Add(this.dataGridView1);
             this.xtraTabPageDSHT.Name = "xtraTabPageDSHT";
-            this.xtraTabPageDSHT.Size = new System.Drawing.Size(1115, 668);
+            this.xtraTabPageDSHT.Size = new System.Drawing.Size(1121, 672);
             this.xtraTabPageDSHT.Text = "Danh Sách Hội Trường";
             // 
             // dataGridView1
@@ -1817,7 +1842,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1115, 668);
+            this.dataGridView1.Size = new System.Drawing.Size(1121, 672);
             this.dataGridView1.TabIndex = 1;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -1825,8 +1850,8 @@
             // 
             this.dataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.dataGridViewTextBoxColumn1.DataPropertyName = "MaHoiTruong";
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle9;
             this.dataGridViewTextBoxColumn1.HeaderText = "Mã hội trường";
             this.dataGridViewTextBoxColumn1.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
@@ -1843,8 +1868,8 @@
             // 
             this.dataGridViewTextBoxColumn2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.dataGridViewTextBoxColumn2.DataPropertyName = "Ten";
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dataGridViewTextBoxColumn2.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle10.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataGridViewTextBoxColumn2.DefaultCellStyle = dataGridViewCellStyle10;
             this.dataGridViewTextBoxColumn2.HeaderText = "Tên hội trường";
             this.dataGridViewTextBoxColumn2.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
@@ -1863,7 +1888,7 @@
             // 
             this.xtraTabPageDSP.Controls.Add(this.dtgv_dsphong);
             this.xtraTabPageDSP.Name = "xtraTabPageDSP";
-            this.xtraTabPageDSP.Size = new System.Drawing.Size(1115, 668);
+            this.xtraTabPageDSP.Size = new System.Drawing.Size(1121, 672);
             this.xtraTabPageDSP.Text = "Danh Sách Phòng";
             // 
             // dtgv_dsphong
@@ -1882,7 +1907,7 @@
             this.dtgv_dsphong.Name = "dtgv_dsphong";
             this.dtgv_dsphong.RowHeadersWidth = 51;
             this.dtgv_dsphong.RowTemplate.Height = 24;
-            this.dtgv_dsphong.Size = new System.Drawing.Size(1115, 668);
+            this.dtgv_dsphong.Size = new System.Drawing.Size(1121, 672);
             this.dtgv_dsphong.TabIndex = 1;
             // 
             // maPhongDataGridViewTextBoxColumn
@@ -3598,6 +3623,9 @@
             // 
             // xtraTabPageNhatKyMTTB_Top
             // 
+            this.xtraTabPageNhatKyMTTB_Top.Controls.Add(this.pn_sua_nkmtb);
+            this.xtraTabPageNhatKyMTTB_Top.Controls.Add(this.pn_them_nkmtb);
+            this.xtraTabPageNhatKyMTTB_Top.Controls.Add(this.btn_them_nkmtb);
             this.xtraTabPageNhatKyMTTB_Top.Controls.Add(this.dtgv_MuonTTB);
             this.xtraTabPageNhatKyMTTB_Top.Name = "xtraTabPageNhatKyMTTB_Top";
             this.xtraTabPageNhatKyMTTB_Top.Size = new System.Drawing.Size(1121, 672);
@@ -3609,100 +3637,13 @@
             this.dtgv_MuonTTB.AllowUserToOrderColumns = true;
             this.dtgv_MuonTTB.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
             this.dtgv_MuonTTB.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgv_MuonTTB.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.date,
-            this.cadetname,
-            this.phone,
-            this.classname,
-            this.room,
-            this.shift,
-            this.equipment,
-            this.cadet_sign_borrow,
-            this.modify,
-            this.delete});
-            this.dtgv_MuonTTB.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dtgv_MuonTTB.Location = new System.Drawing.Point(0, 0);
+            this.dtgv_MuonTTB.Location = new System.Drawing.Point(32, 89);
             this.dtgv_MuonTTB.Name = "dtgv_MuonTTB";
             this.dtgv_MuonTTB.RowHeadersWidth = 51;
             this.dtgv_MuonTTB.RowTemplate.Height = 24;
-            this.dtgv_MuonTTB.Size = new System.Drawing.Size(1121, 672);
+            this.dtgv_MuonTTB.Size = new System.Drawing.Size(1048, 547);
             this.dtgv_MuonTTB.TabIndex = 2;
-            // 
-            // date
-            // 
-            this.date.HeaderText = "Ngày/tháng";
-            this.date.MinimumWidth = 6;
-            this.date.Name = "date";
-            this.date.Width = 125;
-            // 
-            // cadetname
-            // 
-            this.cadetname.HeaderText = "Họ và tên";
-            this.cadetname.MinimumWidth = 6;
-            this.cadetname.Name = "cadetname";
-            this.cadetname.Width = 160;
-            // 
-            // phone
-            // 
-            this.phone.HeaderText = "Số điện thoại";
-            this.phone.MinimumWidth = 6;
-            this.phone.Name = "phone";
-            this.phone.Width = 120;
-            // 
-            // classname
-            // 
-            this.classname.HeaderText = "Lớp";
-            this.classname.MinimumWidth = 6;
-            this.classname.Name = "classname";
-            this.classname.Width = 125;
-            // 
-            // room
-            // 
-            this.room.HeaderText = "Phòng học";
-            this.room.MinimumWidth = 6;
-            this.room.Name = "room";
-            this.room.Width = 110;
-            // 
-            // shift
-            // 
-            this.shift.HeaderText = "Kíp học";
-            this.shift.MinimumWidth = 6;
-            this.shift.Name = "shift";
-            this.shift.Width = 125;
-            // 
-            // equipment
-            // 
-            this.equipment.HeaderText = "Tên TTB";
-            this.equipment.MinimumWidth = 6;
-            this.equipment.Name = "equipment";
-            this.equipment.Width = 150;
-            // 
-            // cadet_sign_borrow
-            // 
-            this.cadet_sign_borrow.HeaderText = "Đã trả";
-            this.cadet_sign_borrow.MinimumWidth = 6;
-            this.cadet_sign_borrow.Name = "cadet_sign_borrow";
-            this.cadet_sign_borrow.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.cadet_sign_borrow.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.cadet_sign_borrow.Width = 125;
-            // 
-            // modify
-            // 
-            this.modify.HeaderText = "Sửa";
-            this.modify.MinimumWidth = 6;
-            this.modify.Name = "modify";
-            this.modify.Text = "Sửa";
-            this.modify.UseColumnTextForButtonValue = true;
-            this.modify.Width = 125;
-            // 
-            // delete
-            // 
-            this.delete.HeaderText = "Xóa";
-            this.delete.MinimumWidth = 6;
-            this.delete.Name = "delete";
-            this.delete.Text = "Xóa";
-            this.delete.UseColumnTextForButtonValue = true;
-            this.delete.Width = 125;
+            this.dtgv_MuonTTB.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgv_MuonTTB_CellContentClick);
             // 
             // xtraTabPageKeHoachTop
             // 
@@ -4384,6 +4325,358 @@
             // 
             this.phongTableAdapter.ClearBeforeFill = true;
             // 
+            // btn_them_nkmtb
+            // 
+            this.btn_them_nkmtb.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_them_nkmtb.Location = new System.Drawing.Point(32, 17);
+            this.btn_them_nkmtb.Name = "btn_them_nkmtb";
+            this.btn_them_nkmtb.Size = new System.Drawing.Size(114, 53);
+            this.btn_them_nkmtb.TabIndex = 3;
+            this.btn_them_nkmtb.Text = "THÊM";
+            this.btn_them_nkmtb.UseVisualStyleBackColor = true;
+            this.btn_them_nkmtb.Click += new System.EventHandler(this.btn_them_nkmtb_Click);
+            // 
+            // pn_them_nkmtb
+            // 
+            this.pn_them_nkmtb.Controls.Add(this.lstbx_phong_themnkmtb);
+            this.pn_them_nkmtb.Controls.Add(this.tb_tenttb_themnkmtb);
+            this.pn_them_nkmtb.Controls.Add(this.lb_tenttb_themnkmtb);
+            this.pn_them_nkmtb.Controls.Add(this.btn_cancel_them_nkmtb);
+            this.pn_them_nkmtb.Controls.Add(this.btn_add_nkmtb);
+            this.pn_them_nkmtb.Controls.Add(this.tb_kip_themnkmtb);
+            this.pn_them_nkmtb.Controls.Add(this.tb_lop_themnkmtb);
+            this.pn_them_nkmtb.Controls.Add(this.tb_sdt_themnkmtb);
+            this.pn_them_nkmtb.Controls.Add(this.tb_hovaten_themnkmtb);
+            this.pn_them_nkmtb.Controls.Add(this.tb_ngaythang_themnkmtb);
+            this.pn_them_nkmtb.Controls.Add(this.lb_kip_themnkmtb);
+            this.pn_them_nkmtb.Controls.Add(this.lb_phonghoc_themnkmtb);
+            this.pn_them_nkmtb.Controls.Add(this.lb_lop_themnkmtb);
+            this.pn_them_nkmtb.Controls.Add(this.lb_sdt_themnkmtb);
+            this.pn_them_nkmtb.Controls.Add(this.lb_hovaten_themnkmtb);
+            this.pn_them_nkmtb.Controls.Add(this.lb_ngaythang_themnkmtb);
+            this.pn_them_nkmtb.Location = new System.Drawing.Point(387, 15);
+            this.pn_them_nkmtb.Name = "pn_them_nkmtb";
+            this.pn_them_nkmtb.Size = new System.Drawing.Size(51, 43);
+            this.pn_them_nkmtb.TabIndex = 4;
+            this.pn_them_nkmtb.Visible = false;
+            // 
+            // btn_cancel_them_nkmtb
+            // 
+            this.btn_cancel_them_nkmtb.BackColor = System.Drawing.Color.White;
+            this.btn_cancel_them_nkmtb.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_cancel_them_nkmtb.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold);
+            this.btn_cancel_them_nkmtb.Location = new System.Drawing.Point(605, 520);
+            this.btn_cancel_them_nkmtb.Name = "btn_cancel_them_nkmtb";
+            this.btn_cancel_them_nkmtb.Size = new System.Drawing.Size(283, 67);
+            this.btn_cancel_them_nkmtb.TabIndex = 27;
+            this.btn_cancel_them_nkmtb.Text = "HỦY";
+            this.btn_cancel_them_nkmtb.UseVisualStyleBackColor = false;
+            this.btn_cancel_them_nkmtb.Click += new System.EventHandler(this.btn_cancel_them_nkmtb_Click);
+            // 
+            // btn_add_nkmtb
+            // 
+            this.btn_add_nkmtb.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btn_add_nkmtb.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_add_nkmtb.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold);
+            this.btn_add_nkmtb.ForeColor = System.Drawing.Color.White;
+            this.btn_add_nkmtb.Location = new System.Drawing.Point(233, 520);
+            this.btn_add_nkmtb.Name = "btn_add_nkmtb";
+            this.btn_add_nkmtb.Size = new System.Drawing.Size(283, 67);
+            this.btn_add_nkmtb.TabIndex = 26;
+            this.btn_add_nkmtb.Text = "THÊM";
+            this.btn_add_nkmtb.UseVisualStyleBackColor = false;
+            this.btn_add_nkmtb.Click += new System.EventHandler(this.btn_add_nkmtb_Click);
+            // 
+            // tb_kip_themnkmtb
+            // 
+            this.tb_kip_themnkmtb.Font = new System.Drawing.Font("Tahoma", 14F);
+            this.tb_kip_themnkmtb.Location = new System.Drawing.Point(500, 393);
+            this.tb_kip_themnkmtb.Name = "tb_kip_themnkmtb";
+            this.tb_kip_themnkmtb.Size = new System.Drawing.Size(358, 36);
+            this.tb_kip_themnkmtb.TabIndex = 24;
+            // 
+            // tb_lop_themnkmtb
+            // 
+            this.tb_lop_themnkmtb.Font = new System.Drawing.Font("Tahoma", 14F);
+            this.tb_lop_themnkmtb.Location = new System.Drawing.Point(500, 261);
+            this.tb_lop_themnkmtb.Name = "tb_lop_themnkmtb";
+            this.tb_lop_themnkmtb.Size = new System.Drawing.Size(358, 36);
+            this.tb_lop_themnkmtb.TabIndex = 23;
+            // 
+            // tb_sdt_themnkmtb
+            // 
+            this.tb_sdt_themnkmtb.Font = new System.Drawing.Font("Tahoma", 14F);
+            this.tb_sdt_themnkmtb.Location = new System.Drawing.Point(500, 196);
+            this.tb_sdt_themnkmtb.Name = "tb_sdt_themnkmtb";
+            this.tb_sdt_themnkmtb.Size = new System.Drawing.Size(358, 36);
+            this.tb_sdt_themnkmtb.TabIndex = 22;
+            // 
+            // tb_hovaten_themnkmtb
+            // 
+            this.tb_hovaten_themnkmtb.Font = new System.Drawing.Font("Tahoma", 14F);
+            this.tb_hovaten_themnkmtb.Location = new System.Drawing.Point(500, 131);
+            this.tb_hovaten_themnkmtb.Name = "tb_hovaten_themnkmtb";
+            this.tb_hovaten_themnkmtb.Size = new System.Drawing.Size(358, 36);
+            this.tb_hovaten_themnkmtb.TabIndex = 21;
+            // 
+            // tb_ngaythang_themnkmtb
+            // 
+            this.tb_ngaythang_themnkmtb.Font = new System.Drawing.Font("Tahoma", 14F);
+            this.tb_ngaythang_themnkmtb.Location = new System.Drawing.Point(500, 70);
+            this.tb_ngaythang_themnkmtb.Name = "tb_ngaythang_themnkmtb";
+            this.tb_ngaythang_themnkmtb.Size = new System.Drawing.Size(358, 36);
+            this.tb_ngaythang_themnkmtb.TabIndex = 20;
+            // 
+            // lb_kip_themnkmtb
+            // 
+            this.lb_kip_themnkmtb.AutoSize = true;
+            this.lb_kip_themnkmtb.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold);
+            this.lb_kip_themnkmtb.Location = new System.Drawing.Point(256, 396);
+            this.lb_kip_themnkmtb.Name = "lb_kip_themnkmtb";
+            this.lb_kip_themnkmtb.Size = new System.Drawing.Size(102, 29);
+            this.lb_kip_themnkmtb.TabIndex = 19;
+            this.lb_kip_themnkmtb.Text = "Kíp học";
+            // 
+            // lb_phonghoc_themnkmtb
+            // 
+            this.lb_phonghoc_themnkmtb.AutoSize = true;
+            this.lb_phonghoc_themnkmtb.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold);
+            this.lb_phonghoc_themnkmtb.Location = new System.Drawing.Point(256, 330);
+            this.lb_phonghoc_themnkmtb.Name = "lb_phonghoc_themnkmtb";
+            this.lb_phonghoc_themnkmtb.Size = new System.Drawing.Size(139, 29);
+            this.lb_phonghoc_themnkmtb.TabIndex = 18;
+            this.lb_phonghoc_themnkmtb.Text = "Phòng học";
+            // 
+            // lb_lop_themnkmtb
+            // 
+            this.lb_lop_themnkmtb.AutoSize = true;
+            this.lb_lop_themnkmtb.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold);
+            this.lb_lop_themnkmtb.Location = new System.Drawing.Point(256, 264);
+            this.lb_lop_themnkmtb.Name = "lb_lop_themnkmtb";
+            this.lb_lop_themnkmtb.Size = new System.Drawing.Size(57, 29);
+            this.lb_lop_themnkmtb.TabIndex = 17;
+            this.lb_lop_themnkmtb.Text = "Lớp";
+            // 
+            // lb_sdt_themnkmtb
+            // 
+            this.lb_sdt_themnkmtb.AutoSize = true;
+            this.lb_sdt_themnkmtb.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold);
+            this.lb_sdt_themnkmtb.Location = new System.Drawing.Point(256, 199);
+            this.lb_sdt_themnkmtb.Name = "lb_sdt_themnkmtb";
+            this.lb_sdt_themnkmtb.Size = new System.Drawing.Size(169, 29);
+            this.lb_sdt_themnkmtb.TabIndex = 16;
+            this.lb_sdt_themnkmtb.Text = "Số điện thoại";
+            // 
+            // lb_hovaten_themnkmtb
+            // 
+            this.lb_hovaten_themnkmtb.AutoSize = true;
+            this.lb_hovaten_themnkmtb.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold);
+            this.lb_hovaten_themnkmtb.Location = new System.Drawing.Point(256, 134);
+            this.lb_hovaten_themnkmtb.Name = "lb_hovaten_themnkmtb";
+            this.lb_hovaten_themnkmtb.Size = new System.Drawing.Size(127, 29);
+            this.lb_hovaten_themnkmtb.TabIndex = 15;
+            this.lb_hovaten_themnkmtb.Text = "Họ và tên";
+            // 
+            // lb_ngaythang_themnkmtb
+            // 
+            this.lb_ngaythang_themnkmtb.AutoSize = true;
+            this.lb_ngaythang_themnkmtb.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold);
+            this.lb_ngaythang_themnkmtb.Location = new System.Drawing.Point(256, 73);
+            this.lb_ngaythang_themnkmtb.Name = "lb_ngaythang_themnkmtb";
+            this.lb_ngaythang_themnkmtb.Size = new System.Drawing.Size(158, 29);
+            this.lb_ngaythang_themnkmtb.TabIndex = 14;
+            this.lb_ngaythang_themnkmtb.Text = "Ngày/tháng";
+            // 
+            // pn_sua_nkmtb
+            // 
+            this.pn_sua_nkmtb.Controls.Add(this.button24);
+            this.pn_sua_nkmtb.Controls.Add(this.button25);
+            this.pn_sua_nkmtb.Controls.Add(this.listBox2);
+            this.pn_sua_nkmtb.Controls.Add(this.textBox16);
+            this.pn_sua_nkmtb.Controls.Add(this.textBox20);
+            this.pn_sua_nkmtb.Controls.Add(this.textBox21);
+            this.pn_sua_nkmtb.Controls.Add(this.textBox22);
+            this.pn_sua_nkmtb.Controls.Add(this.textBox23);
+            this.pn_sua_nkmtb.Controls.Add(this.label92);
+            this.pn_sua_nkmtb.Controls.Add(this.label93);
+            this.pn_sua_nkmtb.Controls.Add(this.label94);
+            this.pn_sua_nkmtb.Controls.Add(this.label95);
+            this.pn_sua_nkmtb.Controls.Add(this.label96);
+            this.pn_sua_nkmtb.Controls.Add(this.label97);
+            this.pn_sua_nkmtb.Location = new System.Drawing.Point(513, 15);
+            this.pn_sua_nkmtb.Name = "pn_sua_nkmtb";
+            this.pn_sua_nkmtb.Size = new System.Drawing.Size(51, 43);
+            this.pn_sua_nkmtb.TabIndex = 28;
+            // 
+            // button24
+            // 
+            this.button24.BackColor = System.Drawing.Color.White;
+            this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button24.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold);
+            this.button24.Location = new System.Drawing.Point(605, 505);
+            this.button24.Name = "button24";
+            this.button24.Size = new System.Drawing.Size(283, 67);
+            this.button24.TabIndex = 27;
+            this.button24.Text = "HỦY";
+            this.button24.UseVisualStyleBackColor = false;
+            // 
+            // button25
+            // 
+            this.button25.BackColor = System.Drawing.SystemColors.Highlight;
+            this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button25.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold);
+            this.button25.ForeColor = System.Drawing.Color.White;
+            this.button25.Location = new System.Drawing.Point(233, 505);
+            this.button25.Name = "button25";
+            this.button25.Size = new System.Drawing.Size(283, 67);
+            this.button25.TabIndex = 26;
+            this.button25.Text = "THÊM";
+            this.button25.UseVisualStyleBackColor = false;
+            // 
+            // listBox2
+            // 
+            this.listBox2.Font = new System.Drawing.Font("Tahoma", 14F);
+            this.listBox2.FormattingEnabled = true;
+            this.listBox2.ItemHeight = 28;
+            this.listBox2.Items.AddRange(new object[] {
+            "Tốt",
+            "Hỏng"});
+            this.listBox2.Location = new System.Drawing.Point(448, 427);
+            this.listBox2.Name = "listBox2";
+            this.listBox2.Size = new System.Drawing.Size(358, 32);
+            this.listBox2.TabIndex = 25;
+            // 
+            // textBox16
+            // 
+            this.textBox16.Font = new System.Drawing.Font("Tahoma", 14F);
+            this.textBox16.Location = new System.Drawing.Point(448, 358);
+            this.textBox16.Name = "textBox16";
+            this.textBox16.Size = new System.Drawing.Size(358, 36);
+            this.textBox16.TabIndex = 24;
+            // 
+            // textBox20
+            // 
+            this.textBox20.Font = new System.Drawing.Font("Tahoma", 14F);
+            this.textBox20.Location = new System.Drawing.Point(448, 292);
+            this.textBox20.Name = "textBox20";
+            this.textBox20.Size = new System.Drawing.Size(358, 36);
+            this.textBox20.TabIndex = 23;
+            // 
+            // textBox21
+            // 
+            this.textBox21.Font = new System.Drawing.Font("Tahoma", 14F);
+            this.textBox21.Location = new System.Drawing.Point(448, 227);
+            this.textBox21.Name = "textBox21";
+            this.textBox21.Size = new System.Drawing.Size(358, 36);
+            this.textBox21.TabIndex = 22;
+            // 
+            // textBox22
+            // 
+            this.textBox22.Font = new System.Drawing.Font("Tahoma", 14F);
+            this.textBox22.Location = new System.Drawing.Point(448, 162);
+            this.textBox22.Name = "textBox22";
+            this.textBox22.Size = new System.Drawing.Size(358, 36);
+            this.textBox22.TabIndex = 21;
+            // 
+            // textBox23
+            // 
+            this.textBox23.Font = new System.Drawing.Font("Tahoma", 14F);
+            this.textBox23.Location = new System.Drawing.Point(448, 101);
+            this.textBox23.Name = "textBox23";
+            this.textBox23.Size = new System.Drawing.Size(358, 36);
+            this.textBox23.TabIndex = 20;
+            // 
+            // label92
+            // 
+            this.label92.AutoSize = true;
+            this.label92.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold);
+            this.label92.Location = new System.Drawing.Point(253, 427);
+            this.label92.Name = "label92";
+            this.label92.Size = new System.Drawing.Size(135, 29);
+            this.label92.TabIndex = 19;
+            this.label92.Text = "Trạng thái";
+            // 
+            // label93
+            // 
+            this.label93.AutoSize = true;
+            this.label93.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold);
+            this.label93.Location = new System.Drawing.Point(253, 361);
+            this.label93.Name = "label93";
+            this.label93.Size = new System.Drawing.Size(141, 29);
+            this.label93.TabIndex = 18;
+            this.label93.Text = "Ngày nhập";
+            // 
+            // label94
+            // 
+            this.label94.AutoSize = true;
+            this.label94.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold);
+            this.label94.Location = new System.Drawing.Point(253, 295);
+            this.label94.Name = "label94";
+            this.label94.Size = new System.Drawing.Size(105, 29);
+            this.label94.TabIndex = 17;
+            this.label94.Text = "Giá tiền";
+            // 
+            // label95
+            // 
+            this.label95.AutoSize = true;
+            this.label95.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold);
+            this.label95.Location = new System.Drawing.Point(253, 230);
+            this.label95.Name = "label95";
+            this.label95.Size = new System.Drawing.Size(161, 29);
+            this.label95.TabIndex = 16;
+            this.label95.Text = "Tên vật chất";
+            // 
+            // label96
+            // 
+            this.label96.AutoSize = true;
+            this.label96.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold);
+            this.label96.Location = new System.Drawing.Point(253, 165);
+            this.label96.Name = "label96";
+            this.label96.Size = new System.Drawing.Size(172, 29);
+            this.label96.TabIndex = 15;
+            this.label96.Text = "Mã danh mục";
+            // 
+            // label97
+            // 
+            this.label97.AutoSize = true;
+            this.label97.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold);
+            this.label97.Location = new System.Drawing.Point(253, 104);
+            this.label97.Name = "label97";
+            this.label97.Size = new System.Drawing.Size(152, 29);
+            this.label97.TabIndex = 14;
+            this.label97.Text = "Mã vật chất";
+            // 
+            // lb_tenttb_themnkmtb
+            // 
+            this.lb_tenttb_themnkmtb.AutoSize = true;
+            this.lb_tenttb_themnkmtb.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold);
+            this.lb_tenttb_themnkmtb.Location = new System.Drawing.Point(256, 462);
+            this.lb_tenttb_themnkmtb.Name = "lb_tenttb_themnkmtb";
+            this.lb_tenttb_themnkmtb.Size = new System.Drawing.Size(220, 29);
+            this.lb_tenttb_themnkmtb.TabIndex = 28;
+            this.lb_tenttb_themnkmtb.Text = "Tên trang thiết bị";
+            // 
+            // tb_tenttb_themnkmtb
+            // 
+            this.tb_tenttb_themnkmtb.Font = new System.Drawing.Font("Tahoma", 14F);
+            this.tb_tenttb_themnkmtb.Location = new System.Drawing.Point(500, 459);
+            this.tb_tenttb_themnkmtb.Name = "tb_tenttb_themnkmtb";
+            this.tb_tenttb_themnkmtb.Size = new System.Drawing.Size(358, 36);
+            this.tb_tenttb_themnkmtb.TabIndex = 29;
+            // 
+            // lstbx_phong_themnkmtb
+            // 
+            this.lstbx_phong_themnkmtb.DataSource = this.phongBindingSource;
+            this.lstbx_phong_themnkmtb.DisplayMember = "Ten";
+            this.lstbx_phong_themnkmtb.Font = new System.Drawing.Font("Tahoma", 14F);
+            this.lstbx_phong_themnkmtb.FormattingEnabled = true;
+            this.lstbx_phong_themnkmtb.ItemHeight = 28;
+            this.lstbx_phong_themnkmtb.Location = new System.Drawing.Point(500, 323);
+            this.lstbx_phong_themnkmtb.Name = "lstbx_phong_themnkmtb";
+            this.lstbx_phong_themnkmtb.Size = new System.Drawing.Size(358, 32);
+            this.lstbx_phong_themnkmtb.TabIndex = 30;
+            this.lstbx_phong_themnkmtb.ValueMember = "Ten";
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -4520,6 +4813,10 @@
             this.panel54.ResumeLayout(false);
             this.panel54.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewAccount)).EndInit();
+            this.pn_them_nkmtb.ResumeLayout(false);
+            this.pn_them_nkmtb.PerformLayout();
+            this.pn_sua_nkmtb.ResumeLayout(false);
+            this.pn_sua_nkmtb.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -4695,16 +4992,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn MaKeHoach;
         private DevExpress.XtraTab.XtraTabPage xtraTabPageNhatKyMTTB_Top;
         private System.Windows.Forms.DataGridView dtgv_MuonTTB;
-        private System.Windows.Forms.DataGridViewTextBoxColumn date;
-        private System.Windows.Forms.DataGridViewTextBoxColumn cadetname;
-        private System.Windows.Forms.DataGridViewTextBoxColumn phone;
-        private System.Windows.Forms.DataGridViewTextBoxColumn classname;
-        private System.Windows.Forms.DataGridViewTextBoxColumn room;
-        private System.Windows.Forms.DataGridViewTextBoxColumn shift;
-        private System.Windows.Forms.DataGridViewTextBoxColumn equipment;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn cadet_sign_borrow;
-        private System.Windows.Forms.DataGridViewButtonColumn modify;
-        private System.Windows.Forms.DataGridViewButtonColumn delete;
         private DevExpress.XtraTab.XtraTabPage xtraTabPageKeHoachTop;
         private DevExpress.XtraTab.XtraTabControl xtraTabControl4;
         private DevExpress.XtraTab.XtraTabPage xtraTabPageDSKH;
@@ -4874,5 +5161,38 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn GioiTinh_CB;
         private System.Windows.Forms.DataGridViewTextBoxColumn SDT_CB;
         private System.Windows.Forms.Button button21;
+        private System.Windows.Forms.Panel pn_them_nkmtb;
+        private System.Windows.Forms.Button btn_cancel_them_nkmtb;
+        private System.Windows.Forms.Button btn_add_nkmtb;
+        private System.Windows.Forms.TextBox tb_kip_themnkmtb;
+        private System.Windows.Forms.TextBox tb_lop_themnkmtb;
+        private System.Windows.Forms.TextBox tb_sdt_themnkmtb;
+        private System.Windows.Forms.TextBox tb_hovaten_themnkmtb;
+        private System.Windows.Forms.TextBox tb_ngaythang_themnkmtb;
+        private System.Windows.Forms.Label lb_kip_themnkmtb;
+        private System.Windows.Forms.Label lb_phonghoc_themnkmtb;
+        private System.Windows.Forms.Label lb_lop_themnkmtb;
+        private System.Windows.Forms.Label lb_sdt_themnkmtb;
+        private System.Windows.Forms.Label lb_hovaten_themnkmtb;
+        private System.Windows.Forms.Label lb_ngaythang_themnkmtb;
+        private System.Windows.Forms.Button btn_them_nkmtb;
+        private System.Windows.Forms.Panel pn_sua_nkmtb;
+        private System.Windows.Forms.Button button24;
+        private System.Windows.Forms.Button button25;
+        private System.Windows.Forms.ListBox listBox2;
+        private System.Windows.Forms.TextBox textBox16;
+        private System.Windows.Forms.TextBox textBox20;
+        private System.Windows.Forms.TextBox textBox21;
+        private System.Windows.Forms.TextBox textBox22;
+        private System.Windows.Forms.TextBox textBox23;
+        private System.Windows.Forms.Label label92;
+        private System.Windows.Forms.Label label93;
+        private System.Windows.Forms.Label label94;
+        private System.Windows.Forms.Label label95;
+        private System.Windows.Forms.Label label96;
+        private System.Windows.Forms.Label label97;
+        private System.Windows.Forms.ListBox lstbx_phong_themnkmtb;
+        private System.Windows.Forms.TextBox tb_tenttb_themnkmtb;
+        private System.Windows.Forms.Label lb_tenttb_themnkmtb;
     }
 }
