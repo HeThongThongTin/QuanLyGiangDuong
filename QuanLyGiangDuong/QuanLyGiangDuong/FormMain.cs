@@ -228,26 +228,26 @@ namespace QuanLyGiangDuong
 
         private void btn_them_nkmtb_Click(object sender, EventArgs e)
         {
-            pn_them_nkmtb.Visible = true;
-            pn_them_nkmtb.Dock = DockStyle.Fill;
+            //pn_them_nkmtb.Visible = true;
+            //pn_them_nkmtb.Dock = DockStyle.Fill;
         }
 
         private void btn_add_nkmtb_Click(object sender, EventArgs e)
         {
-            tb_ngaythang_themnkmtb.Text = "";
-            tb_hovaten_themnkmtb.Text = "";
-            tb_sdt_themnkmtb.Text = "";
-            tb_lop_themnkmtb.Text = "";
-            lstbx_phong_themnkmtb.Text = "307";
-            tb_kip_themnkmtb.Text = "";
-            tb_tenttb_themnkmtb.Text = "";
+            //tb_ngaythang_themnkmtb.Text = "";
+            //tb_hovaten_themnkmtb.Text = "";
+            //tb_sdt_themnkmtb.Text = "";
+            //tb_lop_themnkmtb.Text = "";
+            //lstbx_phong_themnkmtb.Text = "307";
+            //tb_kip_themnkmtb.Text = "";
+            //tb_tenttb_themnkmtb.Text = "";
 
         }
 
         private void btn_cancel_them_nkmtb_Click(object sender, EventArgs e)
         {
-            pn_them_nkmtb.Visible = false;
-            pn_them_nkmtb.Dock = DockStyle.None; 
+            //pn_them_nkmtb.Visible = false;
+            //pn_them_nkmtb.Dock = DockStyle.None; 
         }
     }
 }
