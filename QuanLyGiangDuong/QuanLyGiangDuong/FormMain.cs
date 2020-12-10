@@ -161,5 +161,20 @@ namespace QuanLyGiangDuong
             dtgv_dsvc.Update();
             dtgv_dsvc.Refresh();
         }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            this.xtraTabPageKeHoachTop.PageVisible = true;
+            this.xtraTabPageKeHoachTop.PageEnabled = true;
+            this.xtraTabPageKeHoachTop.Show();
+            this.xtraTabPageBSKH.Show();
+        }
+
+        private void FormMain_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'quanLyGiangDuongDataSet.KeHoach' table. You can move, or remove it, as needed.
+            this.keHoachTableAdapter.Fill(this.quanLyGiangDuongDataSet.KeHoach);
+
+        }
     }
 }
