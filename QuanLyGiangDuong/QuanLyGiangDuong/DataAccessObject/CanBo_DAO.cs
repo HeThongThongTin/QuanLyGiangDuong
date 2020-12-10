@@ -8,9 +8,9 @@ namespace QuanLyGiangDuong.DataAccessObject
 {
     class CanBo_DAO : DataProvider
     {
-        public DataTable loadDSCanBo()
+        public DataTable loadDanhSachCanBo()
         {
-            string sql = "Select * from dbo.CanBo";
+            string sql = "select * from dbo.CanBo";
             return GetData(sql);
         }
     }
