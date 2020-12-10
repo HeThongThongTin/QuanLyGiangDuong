@@ -26,6 +26,7 @@ namespace QuanLyGiangDuong.DataAccessObject
             connect.Open();
             SqlCommand command = new SqlCommand(sql, connect);
             command.ExecuteNonQuery();
+           
             connect.Close();
         }
     }
