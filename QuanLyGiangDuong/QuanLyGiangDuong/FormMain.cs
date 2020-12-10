@@ -12,9 +12,6 @@ namespace QuanLyGiangDuong
 {
     public partial class FormMain : Form
     {
-        NoiDungMuonTTB_DAO nd = new NoiDungMuonTTB_DAO();
-        DataTable dt = new DataTable();
-
         public FormMain()
         {
             InitializeComponent();
@@ -66,28 +63,6 @@ namespace QuanLyGiangDuong
             this.hoiTruongTableAdapter.Fill(this.quanLyGiangDuongDataSet.HoiTruong);
             // TODO: This line of code loads data into the 'quanLyGiangDuongDataSet.VatChat' table. You can move, or remove it, as needed.
             this.vatChatTableAdapter.Fill(this.quanLyGiangDuongDataSet.VatChat);
-
-            dt = nd.loadNoiDungAll();
-            this.dtgv_MuonTTB.DataSource = dt;
-            DataGridViewButtonColumn modifyButtonColumn = new DataGridViewButtonColumn();
-            DataGridViewButtonColumn delButtonColumn = new DataGridViewButtonColumn();
-            modifyButtonColumn.Name = "Sửa";
-            modifyButtonColumn.UseColumnTextForButtonValue = true;
-            modifyButtonColumn.Text = "Sửa";
-
-            delButtonColumn.Name = "Xóa";
-            delButtonColumn.UseColumnTextForButtonValue = true;
-            delButtonColumn.Text = "Xóa";
-            int columnIndex1 = 7;
-            int columnIndex2 = 8;
-            if (dtgv_MuonTTB.Columns["Sửa"] == null)
-            {
-                dtgv_MuonTTB.Columns.Insert(columnIndex1, modifyButtonColumn);
-            }
-            if (dtgv_MuonTTB.Columns["Xóa"] == null)
-            {
-                dtgv_MuonTTB.Columns.Insert(columnIndex2, delButtonColumn);
-            }
 
         }
 
@@ -189,6 +164,11 @@ namespace QuanLyGiangDuong
             this.vatChatTableAdapter.Fill(this.quanLyGiangDuongDataSet.VatChat);
             dtgv_dsvc.Update();
             dtgv_dsvc.Refresh();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
