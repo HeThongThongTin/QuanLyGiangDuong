@@ -12,8 +12,6 @@ namespace QuanLyGiangDuong
 {
     public partial class FormMain : Form
     {
-        NoiDungMuonTTB_DAO nd = new NoiDungMuonTTB_DAO();
-        DataTable dt = new DataTable();
         public FormMain()
         {
             InitializeComponent();
@@ -65,29 +63,6 @@ namespace QuanLyGiangDuong
             this.hoiTruongTableAdapter.Fill(this.quanLyGiangDuongDataSet.HoiTruong);
             // TODO: This line of code loads data into the 'quanLyGiangDuongDataSet.VatChat' table. You can move, or remove it, as needed.
             this.vatChatTableAdapter.Fill(this.quanLyGiangDuongDataSet.VatChat);
-
-            dt = nd.loadNoiDungAll();
-            this.dtgv_MuonTTB.DataSource = dt;
-
-            DataGridViewButtonColumn modifycolumn = new DataGridViewButtonColumn();
-            modifycolumn.Name = "Sửa";
-            modifycolumn.Text = "Sửa";
-            modifycolumn.UseColumnTextForButtonValue = true;
-            int columnSua = 7;
-            if (dtgv_MuonTTB.Columns["Sửa"] == null)
-            {
-                dtgv_MuonTTB.Columns.Insert(columnSua, modifycolumn);
-            }
-
-            DataGridViewButtonColumn delcolumn = new DataGridViewButtonColumn();
-            delcolumn.Name = "Sửa";
-            delcolumn.Text = "Sửa";
-            delcolumn.UseColumnTextForButtonValue = true;
-            int columnXoa = 8;
-            if (dtgv_MuonTTB.Columns["Xóa"] == null)
-            {
-                dtgv_MuonTTB.Columns.Insert(columnXoa, delcolumn);
-            }
 
         }
 
@@ -217,42 +192,6 @@ namespace QuanLyGiangDuong
         private void panelTabCanHo_Paint(object sender, PaintEventArgs e)
         {
 
-        }
-
-        private void dtgv_MuonTTB_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-            if (e.ColumnIndex == dtgv_MuonTTB.Columns["Sửa"].Index)
-            {
-                
-            }
-            else if (e.ColumnIndex == dtgv_MuonTTB.Columns["Xóa"].Index)
-            {
-                //Do something with your button.
-            }
-        }
-
-        private void btn_them_nkmtb_Click(object sender, EventArgs e)
-        {
-            //pn_them_nkmtb.Visible = true;
-            //pn_them_nkmtb.Dock = DockStyle.Fill;
-        }
-
-        private void btn_add_nkmtb_Click(object sender, EventArgs e)
-        {
-            //tb_ngaythang_themnkmtb.Text = "";
-            //tb_hovaten_themnkmtb.Text = "";
-            //tb_sdt_themnkmtb.Text = "";
-            //tb_lop_themnkmtb.Text = "";
-            //lstbx_phong_themnkmtb.Text = "307";
-            //tb_kip_themnkmtb.Text = "";
-            //tb_tenttb_themnkmtb.Text = "";
-
-        }
-
-        private void btn_cancel_them_nkmtb_Click(object sender, EventArgs e)
-        {
-            //pn_them_nkmtb.Visible = false;
-            //pn_them_nkmtb.Dock = DockStyle.None; 
         }
     }
 }
