@@ -60,12 +60,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ChiTietPhong.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ChiTietPhong.Designer.cs">
-      <DependentUpon>ChiTietPhong.cs</DependentUpon>
-    </Compile>
     <Compile Include="ConnectDatabase.cs" />
     <Compile Include="DataAccessObject\CanBo_DAO.cs" />
     <Compile Include="DataAccessObject\DataProvider.cs" />
@@ -105,12 +99,6 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="MuonTTBhoctap.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MuonTTBhoctap.Designer.cs">
-      <DependentUpon>MuonTTBhoctap.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QuanLyGiangDuongDataSet.Designer.cs">
@@ -118,17 +106,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>QuanLyGiangDuongDataSet.xsd</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="ChiTietPhong.resx">
-      <DependentUpon>ChiTietPhong.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MuonTTBhoctap.resx">
-      <DependentUpon>MuonTTBhoctap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">

@@ -188,5 +188,10 @@ namespace QuanLyGiangDuong
             CanBo_DAO cb = new CanBo_DAO();
             this.dataGridViewDSCB.DataSource = cb.loadDanhSachCanBo();
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
