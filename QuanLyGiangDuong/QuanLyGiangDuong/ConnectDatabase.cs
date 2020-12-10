@@ -10,6 +10,7 @@ namespace QuanLyGiangDuong
 {
     class ConnectDatabase
     {
+        //z
         public string connect = "Data Source=SCORPION;Initial Catalog=QuanLyGiangDuong;Integrated Security=True";
         private SqlConnection sqlcn;
         private SqlCommand sqlcm;
