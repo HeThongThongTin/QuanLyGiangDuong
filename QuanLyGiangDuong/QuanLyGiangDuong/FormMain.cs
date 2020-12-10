@@ -165,5 +165,10 @@ namespace QuanLyGiangDuong
             dtgv_dsvc.Update();
             dtgv_dsvc.Refresh();
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
