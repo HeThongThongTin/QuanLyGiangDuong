@@ -247,7 +247,7 @@ namespace QuanLyGiangDuong
         private void btn_cancel_them_nkmtb_Click(object sender, EventArgs e)
         {
             pn_them_nkmtb.Visible = false;
-            pn_them_nkmtb.Dock = DockStyle.None;
+            pn_them_nkmtb.Dock = DockStyle.None; 
         }
     }
 }
