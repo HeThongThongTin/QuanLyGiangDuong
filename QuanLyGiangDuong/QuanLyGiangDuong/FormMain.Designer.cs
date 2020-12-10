@@ -32,8 +32,13 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+=======
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+>>>>>>> parent of 67308c3... aaaaa
 =======
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -736,6 +741,7 @@
             this.panelTabCanHo.TabIndex = 0;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             // 
             // button26
             // 
@@ -763,6 +769,8 @@
             this.button24.TabIndex = 20;
             this.button24.Text = "Danh sách hội trường";
             this.button24.UseVisualStyleBackColor = true;
+=======
+>>>>>>> parent of 67308c3... aaaaa
 =======
 >>>>>>> parent of 67308c3... aaaaa
 =======
@@ -1994,8 +2002,13 @@
             this.dataGridViewTextBoxColumn1.DataPropertyName = "MaHoiTruong";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             dataGridViewCellStyle1.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle1;
+=======
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle7;
+>>>>>>> parent of 67308c3... aaaaa
 =======
             dataGridViewCellStyle7.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle7;
@@ -2022,8 +2035,13 @@
             this.dataGridViewTextBoxColumn2.DataPropertyName = "Ten";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dataGridViewTextBoxColumn2.DefaultCellStyle = dataGridViewCellStyle2;
+=======
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataGridViewTextBoxColumn2.DefaultCellStyle = dataGridViewCellStyle8;
+>>>>>>> parent of 67308c3... aaaaa
 =======
             dataGridViewCellStyle8.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dataGridViewTextBoxColumn2.DefaultCellStyle = dataGridViewCellStyle8;
