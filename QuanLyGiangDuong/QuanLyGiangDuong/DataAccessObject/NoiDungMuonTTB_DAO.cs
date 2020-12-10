@@ -26,5 +26,10 @@ namespace QuanLyGiangDuong.DataAccessObject
             string sqlString = $"exec XemTTB_ChuaTra '2020-04-05'";
             return GetData(sqlString);
         }
+
+        public void XoaDS()
+        {
+
+        }
     }
 }
