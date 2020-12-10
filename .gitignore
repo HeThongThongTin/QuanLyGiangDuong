@@ -349,3 +349,8 @@ MigrationBackup/
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
 QuanLyGiangDuong/QuanLyGiangDuong/App.config
+QuanLyGiangDuong/QuanLyGiangDuong/Properties/licenses.licx
+QuanLyGiangDuong/QuanLyGiangDuong/Properties/licenses.licx.bak
+QuanLyGiangDuong/QuanLyGiangDuong/QuanLyGiangDuong.csproj
+QuanLyGiangDuong/QuanLyGiangDuong/QuanLyGiangDuong.csproj.bak
+QuanLyGiangDuong/QuanLyGiangDuong/QuanLyGiangDuong.csproj.bak
