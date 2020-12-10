@@ -30,8 +30,8 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.xtraTabbedMdiManager1 = new DevExpress.XtraTabbedMdi.XtraTabbedMdiManager(this.components);
             this.xtraTabControl2 = new DevExpress.XtraTab.XtraTabControl();
             this.xtraTabPageNhatKyMTBLeft = new DevExpress.XtraTab.XtraTabPage();
@@ -160,7 +160,7 @@
             this.tangDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.maHoiTruongDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.phongBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.xtraTabPageCanBoTop = new DevExpress.XtraTab.XtraTabPage();
+            this.xtraTabPageQuanLyCanBoTop = new DevExpress.XtraTab.XtraTabPage();
             this.xtraTabControl8 = new DevExpress.XtraTab.XtraTabControl();
             this.xtraTabPageSelectAllEmployee = new DevExpress.XtraTab.XtraTabPage();
             this.panel14 = new System.Windows.Forms.Panel();
@@ -375,12 +375,12 @@
             this.ThoiGianKetThuc_PC = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.GhiChu_CV = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NguoiLap_LCT = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button21 = new System.Windows.Forms.Button();
             this.MaCanBo_CB = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TenCanBo_CB = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NgaySinh_CB = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.GioiTinh_CB = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.SDT_CB = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button21 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManager1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl2)).BeginInit();
             this.xtraTabControl2.SuspendLayout();
@@ -425,7 +425,7 @@
             this.xtraTabPageDSP.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgv_dsphong)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.phongBindingSource)).BeginInit();
-            this.xtraTabPageCanBoTop.SuspendLayout();
+            this.xtraTabPageQuanLyCanBoTop.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl8)).BeginInit();
             this.xtraTabControl8.SuspendLayout();
             this.xtraTabPageSelectAllEmployee.SuspendLayout();
@@ -1732,7 +1732,7 @@
             this.xtraTabControl1.TabIndex = 3;
             this.xtraTabControl1.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.xtraTabPage1,
-            this.xtraTabPageCanBoTop,
+            this.xtraTabPageQuanLyCanBoTop,
             this.xtraTabPageNhatKySDGDTop,
             this.xtraTabPageQuanLyVatChatTop,
             this.xtraTabPageNhatKyMTBTop,
@@ -1814,8 +1814,8 @@
             // 
             this.dataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.dataGridViewTextBoxColumn1.DataPropertyName = "MaHoiTruong";
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridViewTextBoxColumn1.HeaderText = "Mã hội trường";
             this.dataGridViewTextBoxColumn1.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
@@ -1832,8 +1832,8 @@
             // 
             this.dataGridViewTextBoxColumn2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.dataGridViewTextBoxColumn2.DataPropertyName = "Ten";
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dataGridViewTextBoxColumn2.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataGridViewTextBoxColumn2.DefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridViewTextBoxColumn2.HeaderText = "Tên hội trường";
             this.dataGridViewTextBoxColumn2.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
@@ -1911,17 +1911,17 @@
             this.phongBindingSource.DataMember = "Phong";
             this.phongBindingSource.DataSource = this.quanLyGiangDuongDataSet;
             // 
-            // xtraTabPageCanBoTop
+            // xtraTabPageQuanLyCanBoTop
             // 
-            this.xtraTabPageCanBoTop.Appearance.Header.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(58)))), ((int)(((byte)(83)))));
-            this.xtraTabPageCanBoTop.Appearance.Header.Options.UseBackColor = true;
-            this.xtraTabPageCanBoTop.Appearance.HeaderActive.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.xtraTabPageCanBoTop.Appearance.HeaderActive.Options.UseBackColor = true;
-            this.xtraTabPageCanBoTop.Controls.Add(this.xtraTabControl8);
-            this.xtraTabPageCanBoTop.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("xtraTabPageCanBoTop.ImageOptions.Image")));
-            this.xtraTabPageCanBoTop.Name = "xtraTabPageCanBoTop";
-            this.xtraTabPageCanBoTop.Size = new System.Drawing.Size(977, 699);
-            this.xtraTabPageCanBoTop.Text = "Quản Lý Cán Bộ";
+            this.xtraTabPageQuanLyCanBoTop.Appearance.Header.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(58)))), ((int)(((byte)(83)))));
+            this.xtraTabPageQuanLyCanBoTop.Appearance.Header.Options.UseBackColor = true;
+            this.xtraTabPageQuanLyCanBoTop.Appearance.HeaderActive.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.xtraTabPageQuanLyCanBoTop.Appearance.HeaderActive.Options.UseBackColor = true;
+            this.xtraTabPageQuanLyCanBoTop.Controls.Add(this.xtraTabControl8);
+            this.xtraTabPageQuanLyCanBoTop.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("xtraTabPageCanBoTop.ImageOptions.Image")));
+            this.xtraTabPageQuanLyCanBoTop.Name = "xtraTabPageQuanLyCanBoTop";
+            this.xtraTabPageQuanLyCanBoTop.Size = new System.Drawing.Size(977, 699);
+            this.xtraTabPageQuanLyCanBoTop.Text = "Quản Lý Cán Bộ";
             // 
             // xtraTabControl8
             // 
@@ -4334,6 +4334,17 @@
             this.NguoiLap_LCT.MinimumWidth = 6;
             this.NguoiLap_LCT.Name = "NguoiLap_LCT";
             // 
+            // button21
+            // 
+            this.button21.ForeColor = System.Drawing.Color.Black;
+            this.button21.Location = new System.Drawing.Point(135, 22);
+            this.button21.Name = "button21";
+            this.button21.Size = new System.Drawing.Size(119, 37);
+            this.button21.TabIndex = 15;
+            this.button21.Text = "Danh Sách CB";
+            this.button21.UseVisualStyleBackColor = true;
+            this.button21.Click += new System.EventHandler(this.button21_Click);
+            // 
             // MaCanBo_CB
             // 
             this.MaCanBo_CB.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
@@ -4353,6 +4364,7 @@
             // NgaySinh_CB
             // 
             this.NgaySinh_CB.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.NgaySinh_CB.DataPropertyName = "NgaySinh";
             this.NgaySinh_CB.HeaderText = "Ngày Sinh";
             this.NgaySinh_CB.MinimumWidth = 6;
             this.NgaySinh_CB.Name = "NgaySinh_CB";
@@ -4372,17 +4384,6 @@
             this.SDT_CB.HeaderText = "Số điện thoại";
             this.SDT_CB.MinimumWidth = 6;
             this.SDT_CB.Name = "SDT_CB";
-            // 
-            // button21
-            // 
-            this.button21.ForeColor = System.Drawing.Color.Black;
-            this.button21.Location = new System.Drawing.Point(135, 22);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(119, 37);
-            this.button21.TabIndex = 15;
-            this.button21.Text = "Danh Sách CB";
-            this.button21.UseVisualStyleBackColor = true;
-            this.button21.Click += new System.EventHandler(this.button21_Click);
             // 
             // FormMain
             // 
@@ -4446,7 +4447,7 @@
             this.xtraTabPageDSP.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dtgv_dsphong)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.phongBindingSource)).EndInit();
-            this.xtraTabPageCanBoTop.ResumeLayout(false);
+            this.xtraTabPageQuanLyCanBoTop.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl8)).EndInit();
             this.xtraTabControl8.ResumeLayout(false);
             this.xtraTabPageSelectAllEmployee.ResumeLayout(false);
@@ -4530,7 +4531,7 @@
         private DevExpress.XtraTab.XtraTabPage xtraTabPage1;
         private DevExpress.XtraTab.XtraTabControl xtraTabControl3;
         private DevExpress.XtraTab.XtraTabPage xtraTabPageHome;
-        private DevExpress.XtraTab.XtraTabPage xtraTabPageCanBoTop;
+        private DevExpress.XtraTab.XtraTabPage xtraTabPageQuanLyCanBoTop;
         private DevExpress.XtraTab.XtraTabControl xtraTabControl8;
         private DevExpress.XtraTab.XtraTabPage xtraTabPageSelectAllEmployee;
         private System.Windows.Forms.Panel panel14;
@@ -4868,11 +4869,11 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn ThoiGianKetThuc_PC;
         private System.Windows.Forms.DataGridViewTextBoxColumn GhiChu_CV;
         private System.Windows.Forms.DataGridViewTextBoxColumn NguoiLap_LCT;
+        private System.Windows.Forms.Button button21;
         private System.Windows.Forms.DataGridViewTextBoxColumn MaCanBo_CB;
         private System.Windows.Forms.DataGridViewTextBoxColumn TenCanBo_CB;
         private System.Windows.Forms.DataGridViewTextBoxColumn NgaySinh_CB;
         private System.Windows.Forms.DataGridViewTextBoxColumn GioiTinh_CB;
         private System.Windows.Forms.DataGridViewTextBoxColumn SDT_CB;
-        private System.Windows.Forms.Button button21;
     }
 }

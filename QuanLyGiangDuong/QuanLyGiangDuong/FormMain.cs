@@ -173,8 +173,8 @@ namespace QuanLyGiangDuong
 
         private void button20_Click(object sender, EventArgs e)
         {
-            this.xtraTabPageQuanLyVatChatTop.PageVisible = true;
-            this.xtraTabPageQuanLyVatChatTop.Show();
+            this.xtraTabPageQuanLyCanBoTop.PageVisible = true;
+            this.xtraTabPageQuanLyCanBoTop.Show();
             this.xtraTabPageLCT.Show();
             LichCongTac_DAO lct = new LichCongTac_DAO();
             this.dataGridViewLCT.DataSource = lct.loadLichCongTac();
@@ -182,8 +182,8 @@ namespace QuanLyGiangDuong
 
         private void button21_Click(object sender, EventArgs e)
         {
-            this.xtraTabPageQuanLyVatChatTop.PageVisible = true;
-            this.xtraTabPageQuanLyVatChatTop.Show();
+            this.xtraTabPageQuanLyCanBoTop.PageVisible = true;
+            this.xtraTabPageQuanLyCanBoTop.Show();
             this.xtraTabPageLCT.Show();
             CanBo_DAO cb = new CanBo_DAO();
             this.dataGridViewDSCB.DataSource = cb.loadDanhSachCanBo();
