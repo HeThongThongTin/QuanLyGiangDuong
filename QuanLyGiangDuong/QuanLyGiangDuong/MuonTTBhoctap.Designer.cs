@@ -30,8 +30,6 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.dtgv_MuonTTB = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.date = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cadetname = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.phone = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -42,6 +40,8 @@
             this.cadet_sign_borrow = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.modify = new System.Windows.Forms.DataGridViewButtonColumn();
             this.delete = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dtgv_MuonTTB)).BeginInit();
             this.SuspendLayout();
             // 
@@ -77,26 +77,6 @@
             this.dtgv_MuonTTB.RowTemplate.Height = 24;
             this.dtgv_MuonTTB.Size = new System.Drawing.Size(1390, 403);
             this.dtgv_MuonTTB.TabIndex = 1;
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(13, 80);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(157, 49);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "MƯỢN TTB";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(1246, 80);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(157, 49);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "TÌM KIẾM";
-            this.button2.UseVisualStyleBackColor = true;
             // 
             // date
             // 
@@ -174,10 +154,31 @@
             this.delete.UseColumnTextForButtonValue = true;
             this.delete.Width = 125;
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(13, 80);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(157, 49);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "MƯỢN TTB";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(1246, 80);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(157, 49);
+            this.button2.TabIndex = 3;
+            this.button2.Text = "TÌM KIẾM";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
             // MuonTTBhoctap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(1415, 596);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
