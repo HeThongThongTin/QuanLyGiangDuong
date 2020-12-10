@@ -173,8 +173,8 @@ namespace QuanLyGiangDuong
 
         private void button20_Click(object sender, EventArgs e)
         {
-            this.xtraTabPageQuanLyCanBoTop.PageVisible = true;
-            this.xtraTabPageQuanLyCanBoTop.Show();
+            this.xtraTabPageQuanLyVatChatTop.PageVisible = true;
+            this.xtraTabPageQuanLyVatChatTop.Show();
             this.xtraTabPageLCT.Show();
             //LichCongTac_DAO lct = new LichCongTac_DAO();
            // this.dataGridViewLCT.DataSource = lct.loadLichCongTac();
@@ -182,42 +182,11 @@ namespace QuanLyGiangDuong
 
         private void button21_Click(object sender, EventArgs e)
         {
-            this.xtraTabPageQuanLyCanBoTop.PageVisible = true;
-            this.xtraTabPageQuanLyCanBoTop.Show();
+            this.xtraTabPageQuanLyVatChatTop.PageVisible = true;
+            this.xtraTabPageQuanLyVatChatTop.Show();
             this.xtraTabPageLCT.Show();
             //CanBo_DAO cb = new CanBo_DAO();
            // this.dataGridViewDSCB.DataSource = cb.loadDanhSachCanBo();
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-            if (e.ColumnIndex == 7)
-            {
-                pn_sua_qlvc.Visible = true;
-                pn_sua_qlvc.Dock = DockStyle.Fill;
-
-                btn_them_qlvc.Visible = false;
-                tb_mavc_suavc.Text = dtgv_dsvc.Rows[e.RowIndex].Cells[0].Value.ToString();
-                tb_madm_suavc.Text = dtgv_dsvc.Rows[e.RowIndex].Cells[1].Value.ToString();
-                tb_tenvc_suavc.Text = dtgv_dsvc.Rows[e.RowIndex].Cells[2].Value.ToString();
-                tb_giatien_suavc.Text = dtgv_dsvc.Rows[e.RowIndex].Cells[3].Value.ToString();
-                tb_ngaynhap_suavc.Text = dtgv_dsvc.Rows[e.RowIndex].Cells[4].Value.ToString();
-                lstbx_trangthai_suavc.Text = dtgv_dsvc.Rows[e.RowIndex].Cells[5].Value.ToString();
-            }
-            else
-            {
-                if (e.ColumnIndex == 8)
-                {
-                    DialogResult result = MessageBox.Show("Bạn có chắc muốn xóa môn học?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
-                    if (result == DialogResult.Yes)
-                    {
-                        NoiDungMuonTTB_DAO ds = new NoiDungMuonTTB_DAO();
-                        ds.XoaDS();
-
-                        FormMain_Load(sender, e);
-                    }
-                }
-            }
         }
     }
 }

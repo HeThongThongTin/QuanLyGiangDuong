@@ -38,7 +38,7 @@
             this.panel6 = new System.Windows.Forms.Panel();
             this.button19 = new System.Windows.Forms.Button();
             this.panel12 = new System.Windows.Forms.Panel();
-            this.button22 = new System.Windows.Forms.Button();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.label34 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
@@ -51,30 +51,27 @@
             this.label69 = new System.Windows.Forms.Label();
             this.xtraTabPageHomeLeft = new DevExpress.XtraTab.XtraTabPage();
             this.panelTabCanHo = new System.Windows.Forms.Panel();
-            this.panel20 = new System.Windows.Forms.Panel();
-            this.button29 = new System.Windows.Forms.Button();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label50 = new System.Windows.Forms.Label();
+            this.panel23 = new System.Windows.Forms.Panel();
+            this.labelDate = new System.Windows.Forms.Label();
+            this.labelChucVu = new System.Windows.Forms.Label();
             this.label51 = new System.Windows.Forms.Label();
-            this.label96 = new System.Windows.Forms.Label();
-            this.label97 = new System.Windows.Forms.Label();
-            this.label98 = new System.Windows.Forms.Label();
+            this.label50 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.labelTenDangNhap = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.panel38 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.xtraTabPageCanBoLeft = new DevExpress.XtraTab.XtraTabPage();
             this.panel4 = new System.Windows.Forms.Panel();
-<<<<<<< Updated upstream
-=======
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.button21 = new System.Windows.Forms.Button();
             this.button20 = new System.Windows.Forms.Button();
->>>>>>> Stashed changes
             this.panel17 = new System.Windows.Forms.Panel();
-            this.button26 = new System.Windows.Forms.Button();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label26 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
@@ -85,24 +82,9 @@
             this.label55 = new System.Windows.Forms.Label();
             this.label56 = new System.Windows.Forms.Label();
             this.label57 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button21 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
             this.button28 = new System.Windows.Forms.Button();
             this.xtraTabPageNhatKySDGD = new DevExpress.XtraTab.XtraTabPage();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel18 = new System.Windows.Forms.Panel();
-            this.button25 = new System.Windows.Forms.Button();
-            this.label45 = new System.Windows.Forms.Label();
-            this.label76 = new System.Windows.Forms.Label();
-            this.label77 = new System.Windows.Forms.Label();
-            this.label89 = new System.Windows.Forms.Label();
-            this.label90 = new System.Windows.Forms.Label();
-            this.label91 = new System.Windows.Forms.Label();
-            this.label92 = new System.Windows.Forms.Label();
-            this.label93 = new System.Windows.Forms.Label();
-            this.label94 = new System.Windows.Forms.Label();
-            this.label95 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
@@ -116,10 +98,9 @@
             this.button2 = new System.Windows.Forms.Button();
             this.xtraTabPageVatChatLeft = new DevExpress.XtraTab.XtraTabPage();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.btn_them_qlvc = new System.Windows.Forms.Button();
             this.button27 = new System.Windows.Forms.Button();
             this.panel21 = new System.Windows.Forms.Panel();
-            this.button24 = new System.Windows.Forms.Button();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.label30 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
@@ -136,7 +117,7 @@
             this.button8 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.button85 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label42 = new System.Windows.Forms.Label();
             this.label47 = new System.Windows.Forms.Label();
             this.label49 = new System.Windows.Forms.Label();
@@ -151,7 +132,7 @@
             this.panel13 = new System.Windows.Forms.Panel();
             this.button84 = new System.Windows.Forms.Button();
             this.panel24 = new System.Windows.Forms.Panel();
-            this.button23 = new System.Windows.Forms.Button();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
@@ -165,6 +146,7 @@
             this.xtraTabControl1 = new DevExpress.XtraTab.XtraTabControl();
             this.xtraTabPage1 = new DevExpress.XtraTab.XtraTabPage();
             this.xtraTabControl3 = new DevExpress.XtraTab.XtraTabControl();
+            this.xtraTabPageHome = new DevExpress.XtraTab.XtraTabPage();
             this.xtraTabPageDSHT = new DevExpress.XtraTab.XtraTabPage();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -179,7 +161,7 @@
             this.tangDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.maHoiTruongDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.phongBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.xtraTabPageQuanLyCanBoTop = new DevExpress.XtraTab.XtraTabPage();
+            this.xtraTabPageCanBoTop = new DevExpress.XtraTab.XtraTabPage();
             this.xtraTabControl8 = new DevExpress.XtraTab.XtraTabControl();
             this.xtraTabPageSelectAllEmployee = new DevExpress.XtraTab.XtraTabPage();
             this.panel14 = new System.Windows.Forms.Panel();
@@ -262,6 +244,37 @@
             this.panel22 = new System.Windows.Forms.Panel();
             this.xtraTabControl9 = new DevExpress.XtraTab.XtraTabControl();
             this.xtraTabPageSelectAllRevenue = new DevExpress.XtraTab.XtraTabPage();
+            this.btn_them_qlvc = new System.Windows.Forms.Button();
+            this.pn_sua_qlvc = new System.Windows.Forms.Panel();
+            this.btn_huy_suavc = new System.Windows.Forms.Button();
+            this.btn_sua_suavc = new System.Windows.Forms.Button();
+            this.lstbx_trangthai_suavc = new System.Windows.Forms.ListBox();
+            this.tb_ngaynhap_suavc = new System.Windows.Forms.TextBox();
+            this.tb_giatien_suavc = new System.Windows.Forms.TextBox();
+            this.tb_tenvc_suavc = new System.Windows.Forms.TextBox();
+            this.tb_madm_suavc = new System.Windows.Forms.TextBox();
+            this.tb_mavc_suavc = new System.Windows.Forms.TextBox();
+            this.lb_trangthai_suavc = new System.Windows.Forms.Label();
+            this.lb_ngaynhap_suavc = new System.Windows.Forms.Label();
+            this.lb_giatien_suavc = new System.Windows.Forms.Label();
+            this.lb_tenvc_suavc = new System.Windows.Forms.Label();
+            this.lb_madm_suavc = new System.Windows.Forms.Label();
+            this.lb_mavc_suavc = new System.Windows.Forms.Label();
+            this.pn_them_qlvc = new System.Windows.Forms.Panel();
+            this.btn_huy_themvc = new System.Windows.Forms.Button();
+            this.btn_them_themvc = new System.Windows.Forms.Button();
+            this.lstbx_trangthai_themvc = new System.Windows.Forms.ListBox();
+            this.tb_ngaynhap_themvc = new System.Windows.Forms.TextBox();
+            this.tb_giatien_themvc = new System.Windows.Forms.TextBox();
+            this.tb_tenvc_themvc = new System.Windows.Forms.TextBox();
+            this.tb_madm_themvc = new System.Windows.Forms.TextBox();
+            this.tb_mavc_themvc = new System.Windows.Forms.TextBox();
+            this.lb_trangthai_themvc = new System.Windows.Forms.Label();
+            this.lb_ngaynhap_themvc = new System.Windows.Forms.Label();
+            this.lb_giatien_themvc = new System.Windows.Forms.Label();
+            this.lb_tenvc_themvc = new System.Windows.Forms.Label();
+            this.lb_madm_themvc = new System.Windows.Forms.Label();
+            this.lb_mavc_themvc = new System.Windows.Forms.Label();
             this.dtgv_dsvc = new System.Windows.Forms.DataGridView();
             this.maVatChatDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.maDanhMucDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -364,6 +377,7 @@
             this.User = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Password = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label194 = new System.Windows.Forms.Label();
+            this.button85 = new System.Windows.Forms.Button();
             this.vatChatTableAdapter = new QuanLyGiangDuong.QuanLyGiangDuongDataSetTableAdapters.VatChatTableAdapter();
             this.hoiTruongTableAdapter = new QuanLyGiangDuong.QuanLyGiangDuongDataSetTableAdapters.HoiTruongTableAdapter();
             this.phongTableAdapter = new QuanLyGiangDuong.QuanLyGiangDuongDataSetTableAdapters.PhongTableAdapter();
@@ -373,27 +387,32 @@
             this.xtraTabPageNhatKyMTBLeft.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel12.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.xtraTabPageHomeLeft.SuspendLayout();
             this.panelTabCanHo.SuspendLayout();
-            this.panel20.SuspendLayout();
+            this.panel23.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.panel38.SuspendLayout();
             this.xtraTabPageCanBoLeft.SuspendLayout();
             this.panel4.SuspendLayout();
-            this.panel17.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            this.panel17.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.xtraTabPageNhatKySDGD.SuspendLayout();
             this.panel1.SuspendLayout();
-            this.panel18.SuspendLayout();
             this.panel2.SuspendLayout();
             this.xtraTabPageVatChatLeft.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel21.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.xtraTabPageKeHoachLeft.SuspendLayout();
             this.panel9.SuspendLayout();
             this.panel10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.xtraTabPageHeThong.SuspendLayout();
             this.panel13.SuspendLayout();
             this.panel24.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).BeginInit();
             this.xtraTabControl1.SuspendLayout();
             this.xtraTabPage1.SuspendLayout();
@@ -406,7 +425,7 @@
             this.xtraTabPageDSP.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgv_dsphong)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.phongBindingSource)).BeginInit();
-            this.xtraTabPageQuanLyCanBoTop.SuspendLayout();
+            this.xtraTabPageCanBoTop.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl8)).BeginInit();
             this.xtraTabControl8.SuspendLayout();
             this.xtraTabPageSelectAllEmployee.SuspendLayout();
@@ -434,6 +453,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl9)).BeginInit();
             this.xtraTabControl9.SuspendLayout();
             this.xtraTabPageSelectAllRevenue.SuspendLayout();
+            this.pn_sua_qlvc.SuspendLayout();
+            this.pn_them_qlvc.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgv_dsvc)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.vatChatBindingSource)).BeginInit();
             this.panel44.SuspendLayout();
@@ -537,7 +558,7 @@
             // panel12
             // 
             this.panel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(58)))), ((int)(((byte)(83)))));
-            this.panel12.Controls.Add(this.button22);
+            this.panel12.Controls.Add(this.pictureBox10);
             this.panel12.Controls.Add(this.label34);
             this.panel12.Controls.Add(this.label35);
             this.panel12.Controls.Add(this.label36);
@@ -554,26 +575,14 @@
             this.panel12.Size = new System.Drawing.Size(315, 93);
             this.panel12.TabIndex = 3;
             // 
-            // button22
+            // pictureBox10
             // 
-<<<<<<< Updated upstream
-            this.button22.BackColor = System.Drawing.Color.Red;
-            this.button22.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button22.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button22.Location = new System.Drawing.Point(3, 5);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(73, 85);
-            this.button22.TabIndex = 13;
-            this.button22.Text = "Log out";
-            this.button22.UseVisualStyleBackColor = false;
-=======
             this.pictureBox10.Location = new System.Drawing.Point(10, 4);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(73, 90);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox10.TabIndex = 12;
             this.pictureBox10.TabStop = false;
->>>>>>> Stashed changes
             // 
             // label34
             // 
@@ -691,7 +700,7 @@
             // panelTabCanHo
             // 
             this.panelTabCanHo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(58)))), ((int)(((byte)(105)))));
-            this.panelTabCanHo.Controls.Add(this.panel20);
+            this.panelTabCanHo.Controls.Add(this.panel23);
             this.panelTabCanHo.Controls.Add(this.panel38);
             this.panelTabCanHo.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelTabCanHo.Location = new System.Drawing.Point(0, 0);
@@ -699,39 +708,6 @@
             this.panelTabCanHo.Size = new System.Drawing.Size(315, 747);
             this.panelTabCanHo.TabIndex = 0;
             // 
-<<<<<<< Updated upstream
-            // panel20
-            // 
-            this.panel20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(58)))), ((int)(((byte)(83)))));
-            this.panel20.Controls.Add(this.button29);
-            this.panel20.Controls.Add(this.label9);
-            this.panel20.Controls.Add(this.label10);
-            this.panel20.Controls.Add(this.label11);
-            this.panel20.Controls.Add(this.label12);
-            this.panel20.Controls.Add(this.label25);
-            this.panel20.Controls.Add(this.label50);
-            this.panel20.Controls.Add(this.label51);
-            this.panel20.Controls.Add(this.label96);
-            this.panel20.Controls.Add(this.label97);
-            this.panel20.Controls.Add(this.label98);
-            this.panel20.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel20.Location = new System.Drawing.Point(0, 648);
-            this.panel20.Name = "panel20";
-            this.panel20.Size = new System.Drawing.Size(266, 94);
-            this.panel20.TabIndex = 20;
-            // 
-            // button29
-            // 
-            this.button29.BackColor = System.Drawing.Color.Red;
-            this.button29.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button29.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button29.Location = new System.Drawing.Point(3, 5);
-            this.button29.Name = "button29";
-            this.button29.Size = new System.Drawing.Size(73, 85);
-            this.button29.TabIndex = 0;
-            this.button29.Text = "Log out";
-            this.button29.UseVisualStyleBackColor = false;
-=======
             // panel23
             // 
             this.panel23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(58)))), ((int)(((byte)(83)))));
@@ -782,58 +758,27 @@
             this.label51.Name = "label51";
             this.label51.Size = new System.Drawing.Size(0, 18);
             this.label51.TabIndex = 8;
->>>>>>> Stashed changes
             // 
-            // label9
+            // label50
             // 
-<<<<<<< Updated upstream
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label9.Location = new System.Drawing.Point(143, 64);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(81, 18);
-            this.label9.TabIndex = 10;
-            this.label9.Text = "3/12/2020 ";
-=======
             this.label50.AutoSize = true;
             this.label50.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label50.Location = new System.Drawing.Point(158, 64);
             this.label50.Name = "label50";
             this.label50.Size = new System.Drawing.Size(0, 18);
             this.label50.TabIndex = 7;
->>>>>>> Stashed changes
             // 
-            // label10
+            // label25
             // 
-<<<<<<< Updated upstream
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(147, 37);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(69, 18);
-            this.label10.TabIndex = 10;
-            this.label10.Text = "Quản Lý";
-=======
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.Location = new System.Drawing.Point(147, 56);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(0, 18);
             this.label25.TabIndex = 6;
->>>>>>> Stashed changes
             // 
-            // label11
+            // labelTenDangNhap
             // 
-<<<<<<< Updated upstream
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(146, 72);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(0, 18);
-            this.label11.TabIndex = 8;
-=======
             this.labelTenDangNhap.AutoSize = true;
             this.labelTenDangNhap.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTenDangNhap.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -842,32 +787,19 @@
             this.labelTenDangNhap.Size = new System.Drawing.Size(54, 18);
             this.labelTenDangNhap.TabIndex = 5;
             this.labelTenDangNhap.Text = "Admin";
->>>>>>> Stashed changes
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-<<<<<<< Updated upstream
-            this.label12.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(138, 64);
-=======
             this.label12.ForeColor = System.Drawing.Color.White;
             this.label12.Location = new System.Drawing.Point(90, 67);
->>>>>>> Stashed changes
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(0, 18);
-            this.label12.TabIndex = 7;
+            this.label12.Size = new System.Drawing.Size(46, 17);
+            this.label12.TabIndex = 4;
+            this.label12.Text = "Date :";
             // 
-<<<<<<< Updated upstream
-            // label25
+            // label11
             // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(129, 56);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(0, 18);
-            this.label25.TabIndex = 6;
-=======
             this.label11.AutoSize = true;
             this.label11.ForeColor = System.Drawing.Color.White;
             this.label11.Location = new System.Drawing.Point(90, 56);
@@ -884,20 +816,9 @@
             this.label10.Size = new System.Drawing.Size(44, 17);
             this.label10.TabIndex = 2;
             this.label10.Text = "Tên : ";
->>>>>>> Stashed changes
             // 
-            // label50
+            // label9
             // 
-<<<<<<< Updated upstream
-            this.label50.AutoSize = true;
-            this.label50.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label50.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label50.Location = new System.Drawing.Point(129, 11);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(54, 18);
-            this.label50.TabIndex = 5;
-            this.label50.Text = "Admin";
-=======
             this.label9.AutoSize = true;
             this.label9.ForeColor = System.Drawing.Color.White;
             this.label9.Location = new System.Drawing.Point(90, 39);
@@ -905,55 +826,15 @@
             this.label9.Size = new System.Drawing.Size(66, 17);
             this.label9.TabIndex = 1;
             this.label9.Text = "Chức vụ:";
->>>>>>> Stashed changes
             // 
-            // label51
+            // pictureBox5
             // 
-<<<<<<< Updated upstream
-            this.label51.AutoSize = true;
-            this.label51.ForeColor = System.Drawing.Color.White;
-            this.label51.Location = new System.Drawing.Point(79, 67);
-            this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(46, 17);
-            this.label51.TabIndex = 4;
-            this.label51.Text = "Date :";
-            // 
-            // label96
-            // 
-            this.label96.AutoSize = true;
-            this.label96.ForeColor = System.Drawing.Color.White;
-            this.label96.Location = new System.Drawing.Point(79, 56);
-            this.label96.Name = "label96";
-            this.label96.Size = new System.Drawing.Size(0, 17);
-            this.label96.TabIndex = 3;
-            // 
-            // label97
-            // 
-            this.label97.AutoSize = true;
-            this.label97.ForeColor = System.Drawing.Color.White;
-            this.label97.Location = new System.Drawing.Point(79, 11);
-            this.label97.Name = "label97";
-            this.label97.Size = new System.Drawing.Size(44, 17);
-            this.label97.TabIndex = 2;
-            this.label97.Text = "Tên : ";
-            // 
-            // label98
-            // 
-            this.label98.AutoSize = true;
-            this.label98.ForeColor = System.Drawing.Color.White;
-            this.label98.Location = new System.Drawing.Point(79, 39);
-            this.label98.Name = "label98";
-            this.label98.Size = new System.Drawing.Size(66, 17);
-            this.label98.TabIndex = 1;
-            this.label98.Text = "Chức vụ:";
-=======
             this.pictureBox5.Location = new System.Drawing.Point(7, 7);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(73, 90);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 0;
             this.pictureBox5.TabStop = false;
->>>>>>> Stashed changes
             // 
             // panel38
             // 
@@ -995,8 +876,8 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(58)))), ((int)(((byte)(105)))));
-            this.panel4.Controls.Add(this.panel17);
             this.panel4.Controls.Add(this.groupBox1);
+            this.panel4.Controls.Add(this.panel17);
             this.panel4.Controls.Add(this.button28);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel4.Location = new System.Drawing.Point(0, 0);
@@ -1004,8 +885,6 @@
             this.panel4.Size = new System.Drawing.Size(315, 747);
             this.panel4.TabIndex = 1;
             // 
-<<<<<<< Updated upstream
-=======
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.button21);
@@ -1040,11 +919,10 @@
             this.button20.UseVisualStyleBackColor = true;
             this.button20.Click += new System.EventHandler(this.button20_Click);
             // 
->>>>>>> Stashed changes
             // panel17
             // 
             this.panel17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(58)))), ((int)(((byte)(83)))));
-            this.panel17.Controls.Add(this.button26);
+            this.panel17.Controls.Add(this.pictureBox3);
             this.panel17.Controls.Add(this.label26);
             this.panel17.Controls.Add(this.label27);
             this.panel17.Controls.Add(this.label28);
@@ -1056,38 +934,19 @@
             this.panel17.Controls.Add(this.label56);
             this.panel17.Controls.Add(this.label57);
             this.panel17.Dock = System.Windows.Forms.DockStyle.Bottom;
-<<<<<<< Updated upstream
-            this.panel17.Location = new System.Drawing.Point(0, 648);
-            this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(266, 94);
-            this.panel17.TabIndex = 16;
-=======
             this.panel17.Location = new System.Drawing.Point(0, 645);
             this.panel17.Name = "panel17";
             this.panel17.Size = new System.Drawing.Size(315, 102);
             this.panel17.TabIndex = 3;
->>>>>>> Stashed changes
             // 
-            // button26
+            // pictureBox3
             // 
-<<<<<<< Updated upstream
-            this.button26.BackColor = System.Drawing.Color.Red;
-            this.button26.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button26.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button26.Location = new System.Drawing.Point(3, 5);
-            this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(73, 85);
-            this.button26.TabIndex = 0;
-            this.button26.Text = "Log out";
-            this.button26.UseVisualStyleBackColor = false;
-=======
             this.pictureBox3.Location = new System.Drawing.Point(3, 5);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(73, 90);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 11;
             this.pictureBox3.TabStop = false;
->>>>>>> Stashed changes
             // 
             // label26
             // 
@@ -1188,40 +1047,6 @@
             this.label57.TabIndex = 1;
             this.label57.Text = "Chức vụ:";
             // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.button21);
-            this.groupBox1.Controls.Add(this.button20);
-            this.groupBox1.ForeColor = System.Drawing.Color.White;
-            this.groupBox1.Location = new System.Drawing.Point(3, 67);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(260, 211);
-            this.groupBox1.TabIndex = 15;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "control";
-            // 
-            // button21
-            // 
-            this.button21.ForeColor = System.Drawing.Color.Black;
-            this.button21.Location = new System.Drawing.Point(135, 22);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(119, 37);
-            this.button21.TabIndex = 15;
-            this.button21.Text = "Danh Sách CB";
-            this.button21.UseVisualStyleBackColor = true;
-            this.button21.Click += new System.EventHandler(this.button21_Click);
-            // 
-            // button20
-            // 
-            this.button20.ForeColor = System.Drawing.Color.Black;
-            this.button20.Location = new System.Drawing.Point(7, 22);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(119, 37);
-            this.button20.TabIndex = 14;
-            this.button20.Text = "Lịch công tác";
-            this.button20.UseVisualStyleBackColor = true;
-            this.button20.Click += new System.EventHandler(this.button20_Click);
-            // 
             // button28
             // 
             this.button28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(58)))), ((int)(((byte)(83)))));
@@ -1258,7 +1083,6 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(58)))), ((int)(((byte)(105)))));
-            this.panel1.Controls.Add(this.panel18);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -1266,138 +1090,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(315, 686);
             this.panel1.TabIndex = 15;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
-            // 
-            // panel18
-            // 
-            this.panel18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(58)))), ((int)(((byte)(83)))));
-            this.panel18.Controls.Add(this.button25);
-            this.panel18.Controls.Add(this.label45);
-            this.panel18.Controls.Add(this.label76);
-            this.panel18.Controls.Add(this.label77);
-            this.panel18.Controls.Add(this.label89);
-            this.panel18.Controls.Add(this.label90);
-            this.panel18.Controls.Add(this.label91);
-            this.panel18.Controls.Add(this.label92);
-            this.panel18.Controls.Add(this.label93);
-            this.panel18.Controls.Add(this.label94);
-            this.panel18.Controls.Add(this.label95);
-            this.panel18.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel18.Location = new System.Drawing.Point(0, 587);
-            this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(266, 94);
-            this.panel18.TabIndex = 5;
-            // 
-            // button25
-            // 
-            this.button25.BackColor = System.Drawing.Color.Red;
-            this.button25.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button25.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button25.Location = new System.Drawing.Point(3, 5);
-            this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(73, 85);
-            this.button25.TabIndex = 0;
-            this.button25.Text = "Log out";
-            this.button25.UseVisualStyleBackColor = false;
-            // 
-            // label45
-            // 
-            this.label45.AutoSize = true;
-            this.label45.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label45.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label45.Location = new System.Drawing.Point(143, 64);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(81, 18);
-            this.label45.TabIndex = 10;
-            this.label45.Text = "3/12/2020 ";
-            // 
-            // label76
-            // 
-            this.label76.AutoSize = true;
-            this.label76.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label76.ForeColor = System.Drawing.Color.White;
-            this.label76.Location = new System.Drawing.Point(147, 37);
-            this.label76.Name = "label76";
-            this.label76.Size = new System.Drawing.Size(69, 18);
-            this.label76.TabIndex = 10;
-            this.label76.Text = "Quản Lý";
-            // 
-            // label77
-            // 
-            this.label77.AutoSize = true;
-            this.label77.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label77.Location = new System.Drawing.Point(146, 72);
-            this.label77.Name = "label77";
-            this.label77.Size = new System.Drawing.Size(0, 18);
-            this.label77.TabIndex = 8;
-            // 
-            // label89
-            // 
-            this.label89.AutoSize = true;
-            this.label89.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label89.Location = new System.Drawing.Point(138, 64);
-            this.label89.Name = "label89";
-            this.label89.Size = new System.Drawing.Size(0, 18);
-            this.label89.TabIndex = 7;
-            // 
-            // label90
-            // 
-            this.label90.AutoSize = true;
-            this.label90.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label90.Location = new System.Drawing.Point(129, 56);
-            this.label90.Name = "label90";
-            this.label90.Size = new System.Drawing.Size(0, 18);
-            this.label90.TabIndex = 6;
-            // 
-            // label91
-            // 
-            this.label91.AutoSize = true;
-            this.label91.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label91.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label91.Location = new System.Drawing.Point(129, 11);
-            this.label91.Name = "label91";
-            this.label91.Size = new System.Drawing.Size(54, 18);
-            this.label91.TabIndex = 5;
-            this.label91.Text = "Admin";
-            // 
-            // label92
-            // 
-            this.label92.AutoSize = true;
-            this.label92.ForeColor = System.Drawing.Color.White;
-            this.label92.Location = new System.Drawing.Point(79, 67);
-            this.label92.Name = "label92";
-            this.label92.Size = new System.Drawing.Size(46, 17);
-            this.label92.TabIndex = 4;
-            this.label92.Text = "Date :";
-            // 
-            // label93
-            // 
-            this.label93.AutoSize = true;
-            this.label93.ForeColor = System.Drawing.Color.White;
-            this.label93.Location = new System.Drawing.Point(79, 56);
-            this.label93.Name = "label93";
-            this.label93.Size = new System.Drawing.Size(0, 17);
-            this.label93.TabIndex = 3;
-            // 
-            // label94
-            // 
-            this.label94.AutoSize = true;
-            this.label94.ForeColor = System.Drawing.Color.White;
-            this.label94.Location = new System.Drawing.Point(79, 11);
-            this.label94.Name = "label94";
-            this.label94.Size = new System.Drawing.Size(44, 17);
-            this.label94.TabIndex = 2;
-            this.label94.Text = "Tên : ";
-            // 
-            // label95
-            // 
-            this.label95.AutoSize = true;
-            this.label95.ForeColor = System.Drawing.Color.White;
-            this.label95.Location = new System.Drawing.Point(79, 39);
-            this.label95.Name = "label95";
-            this.label95.Size = new System.Drawing.Size(66, 17);
-            this.label95.TabIndex = 1;
-            this.label95.Text = "Chức vụ:";
             // 
             // button3
             // 
@@ -1535,7 +1227,6 @@
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(58)))), ((int)(((byte)(105)))));
-            this.panel5.Controls.Add(this.btn_them_qlvc);
             this.panel5.Controls.Add(this.button27);
             this.panel5.Controls.Add(this.panel21);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -1543,17 +1234,6 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(315, 747);
             this.panel5.TabIndex = 1;
-            // 
-            // btn_them_qlvc
-            // 
-            this.btn_them_qlvc.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_them_qlvc.Location = new System.Drawing.Point(6, 72);
-            this.btn_them_qlvc.Name = "btn_them_qlvc";
-            this.btn_them_qlvc.Size = new System.Drawing.Size(132, 35);
-            this.btn_them_qlvc.TabIndex = 7;
-            this.btn_them_qlvc.Text = "Thêm mới";
-            this.btn_them_qlvc.UseVisualStyleBackColor = true;
-            this.btn_them_qlvc.Click += new System.EventHandler(this.btn_them_qlvc_Click);
             // 
             // button27
             // 
@@ -1575,7 +1255,7 @@
             // panel21
             // 
             this.panel21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(58)))), ((int)(((byte)(83)))));
-            this.panel21.Controls.Add(this.button24);
+            this.panel21.Controls.Add(this.pictureBox9);
             this.panel21.Controls.Add(this.label30);
             this.panel21.Controls.Add(this.label31);
             this.panel21.Controls.Add(this.label32);
@@ -1592,26 +1272,14 @@
             this.panel21.Size = new System.Drawing.Size(315, 93);
             this.panel21.TabIndex = 3;
             // 
-            // button24
+            // pictureBox9
             // 
-<<<<<<< Updated upstream
-            this.button24.BackColor = System.Drawing.Color.Red;
-            this.button24.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button24.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button24.Location = new System.Drawing.Point(3, 5);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(73, 85);
-            this.button24.TabIndex = 14;
-            this.button24.Text = "Log out";
-            this.button24.UseVisualStyleBackColor = false;
-=======
             this.pictureBox9.Location = new System.Drawing.Point(10, 4);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(73, 90);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox9.TabIndex = 12;
             this.pictureBox9.TabStop = false;
->>>>>>> Stashed changes
             // 
             // label30
             // 
@@ -1771,7 +1439,7 @@
             // panel10
             // 
             this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(58)))), ((int)(((byte)(83)))));
-            this.panel10.Controls.Add(this.button85);
+            this.panel10.Controls.Add(this.pictureBox1);
             this.panel10.Controls.Add(this.label42);
             this.panel10.Controls.Add(this.label47);
             this.panel10.Controls.Add(this.label49);
@@ -1788,26 +1456,14 @@
             this.panel10.Size = new System.Drawing.Size(315, 94);
             this.panel10.TabIndex = 3;
             // 
-            // button85
+            // pictureBox1
             // 
-<<<<<<< Updated upstream
-            this.button85.BackColor = System.Drawing.Color.Red;
-            this.button85.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button85.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button85.Location = new System.Drawing.Point(3, 5);
-            this.button85.Name = "button85";
-            this.button85.Size = new System.Drawing.Size(73, 85);
-            this.button85.TabIndex = 0;
-            this.button85.Text = "Log out";
-            this.button85.UseVisualStyleBackColor = false;
-=======
             this.pictureBox1.Location = new System.Drawing.Point(10, 6);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(73, 90);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 12;
             this.pictureBox1.TabStop = false;
->>>>>>> Stashed changes
             // 
             // label42
             // 
@@ -1950,7 +1606,7 @@
             // panel24
             // 
             this.panel24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(58)))), ((int)(((byte)(83)))));
-            this.panel24.Controls.Add(this.button23);
+            this.panel24.Controls.Add(this.pictureBox6);
             this.panel24.Controls.Add(this.label13);
             this.panel24.Controls.Add(this.label14);
             this.panel24.Controls.Add(this.label15);
@@ -1967,26 +1623,14 @@
             this.panel24.Size = new System.Drawing.Size(315, 94);
             this.panel24.TabIndex = 3;
             // 
-            // button23
+            // pictureBox6
             // 
-<<<<<<< Updated upstream
-            this.button23.BackColor = System.Drawing.Color.Red;
-            this.button23.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button23.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button23.Location = new System.Drawing.Point(3, 6);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(73, 85);
-            this.button23.TabIndex = 14;
-            this.button23.Text = "Log out";
-            this.button23.UseVisualStyleBackColor = false;
-=======
             this.pictureBox6.Location = new System.Drawing.Point(10, 6);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(73, 90);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 12;
             this.pictureBox6.TabStop = false;
->>>>>>> Stashed changes
             // 
             // label13
             // 
@@ -2099,7 +1743,7 @@
             this.xtraTabControl1.TabIndex = 3;
             this.xtraTabControl1.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.xtraTabPage1,
-            this.xtraTabPageQuanLyCanBoTop,
+            this.xtraTabPageCanBoTop,
             this.xtraTabPageNhatKySDGDTop,
             this.xtraTabPageQuanLyVatChatTop,
             this.xtraTabPageNhatKyMTBTop,
@@ -2132,20 +1776,14 @@
             this.xtraTabControl3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.xtraTabControl3.Location = new System.Drawing.Point(0, 0);
             this.xtraTabControl3.Name = "xtraTabControl3";
-<<<<<<< Updated upstream
-            this.xtraTabControl3.SelectedTabPage = this.xtraTabPageDSHT;
-            this.xtraTabControl3.Size = new System.Drawing.Size(977, 699);
-=======
             this.xtraTabControl3.SelectedTabPage = this.xtraTabPageHome;
             this.xtraTabControl3.Size = new System.Drawing.Size(1123, 703);
->>>>>>> Stashed changes
             this.xtraTabControl3.TabIndex = 4;
             this.xtraTabControl3.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
+            this.xtraTabPageHome,
             this.xtraTabPageDSHT,
             this.xtraTabPageDSP});
             // 
-<<<<<<< Updated upstream
-=======
             // xtraTabPageHome
             // 
             this.xtraTabPageHome.Appearance.PageClient.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(58)))), ((int)(((byte)(83)))));
@@ -2154,7 +1792,6 @@
             this.xtraTabPageHome.Size = new System.Drawing.Size(1121, 672);
             this.xtraTabPageHome.Text = "Home";
             // 
->>>>>>> Stashed changes
             // xtraTabPageDSHT
             // 
             this.xtraTabPageDSHT.Controls.Add(this.dataGridView1);
@@ -2232,7 +1869,7 @@
             // dtgv_dsphong
             // 
             this.dtgv_dsphong.AutoGenerateColumns = false;
-            this.dtgv_dsphong.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
+            this.dtgv_dsphong.BackgroundColor = System.Drawing.SystemColors.ActiveBorder;
             this.dtgv_dsphong.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgv_dsphong.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.maPhongDataGridViewTextBoxColumn,
@@ -2250,54 +1887,43 @@
             // 
             // maPhongDataGridViewTextBoxColumn
             // 
-            this.maPhongDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.maPhongDataGridViewTextBoxColumn.DataPropertyName = "MaPhong";
             this.maPhongDataGridViewTextBoxColumn.HeaderText = "Mã phòng";
             this.maPhongDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.maPhongDataGridViewTextBoxColumn.Name = "maPhongDataGridViewTextBoxColumn";
+            this.maPhongDataGridViewTextBoxColumn.Width = 140;
             // 
             // tenDataGridViewTextBoxColumn1
             // 
-            this.tenDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.tenDataGridViewTextBoxColumn1.DataPropertyName = "Ten";
             this.tenDataGridViewTextBoxColumn1.HeaderText = "Tên phòng";
             this.tenDataGridViewTextBoxColumn1.MinimumWidth = 6;
             this.tenDataGridViewTextBoxColumn1.Name = "tenDataGridViewTextBoxColumn1";
+            this.tenDataGridViewTextBoxColumn1.Width = 140;
             // 
             // tangDataGridViewTextBoxColumn
             // 
-            this.tangDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.tangDataGridViewTextBoxColumn.DataPropertyName = "Tang";
             this.tangDataGridViewTextBoxColumn.HeaderText = "Tầng";
             this.tangDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.tangDataGridViewTextBoxColumn.Name = "tangDataGridViewTextBoxColumn";
+            this.tangDataGridViewTextBoxColumn.Width = 125;
             // 
             // maHoiTruongDataGridViewTextBoxColumn1
             // 
-            this.maHoiTruongDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.maHoiTruongDataGridViewTextBoxColumn1.DataPropertyName = "MaHoiTruong";
             this.maHoiTruongDataGridViewTextBoxColumn1.HeaderText = "Mã hội trường";
             this.maHoiTruongDataGridViewTextBoxColumn1.MinimumWidth = 6;
             this.maHoiTruongDataGridViewTextBoxColumn1.Name = "maHoiTruongDataGridViewTextBoxColumn1";
+            this.maHoiTruongDataGridViewTextBoxColumn1.Width = 150;
             // 
             // phongBindingSource
             // 
             this.phongBindingSource.DataMember = "Phong";
             this.phongBindingSource.DataSource = this.quanLyGiangDuongDataSet;
             // 
-            // xtraTabPageQuanLyCanBoTop
+            // xtraTabPageCanBoTop
             // 
-<<<<<<< Updated upstream
-            this.xtraTabPageQuanLyCanBoTop.Appearance.Header.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(58)))), ((int)(((byte)(83)))));
-            this.xtraTabPageQuanLyCanBoTop.Appearance.Header.Options.UseBackColor = true;
-            this.xtraTabPageQuanLyCanBoTop.Appearance.HeaderActive.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.xtraTabPageQuanLyCanBoTop.Appearance.HeaderActive.Options.UseBackColor = true;
-            this.xtraTabPageQuanLyCanBoTop.Controls.Add(this.xtraTabControl8);
-            this.xtraTabPageQuanLyCanBoTop.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("xtraTabPageQuanLyCanBoTop.ImageOptions.Image")));
-            this.xtraTabPageQuanLyCanBoTop.Name = "xtraTabPageQuanLyCanBoTop";
-            this.xtraTabPageQuanLyCanBoTop.Size = new System.Drawing.Size(977, 699);
-            this.xtraTabPageQuanLyCanBoTop.Text = "Quản Lý Cán Bộ";
-=======
             this.xtraTabPageCanBoTop.Appearance.Header.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(58)))), ((int)(((byte)(83)))));
             this.xtraTabPageCanBoTop.Appearance.Header.Options.UseBackColor = true;
             this.xtraTabPageCanBoTop.Appearance.HeaderActive.BackColor = System.Drawing.Color.DeepSkyBlue;
@@ -2307,7 +1933,6 @@
             this.xtraTabPageCanBoTop.Name = "xtraTabPageCanBoTop";
             this.xtraTabPageCanBoTop.Size = new System.Drawing.Size(1123, 703);
             this.xtraTabPageCanBoTop.Text = "Quản Lý Cán Bộ";
->>>>>>> Stashed changes
             // 
             // xtraTabControl8
             // 
@@ -2454,10 +2079,6 @@
             // NgaySinh_CB
             // 
             this.NgaySinh_CB.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-<<<<<<< Updated upstream
-            this.NgaySinh_CB.DataPropertyName = "NgaySinh";
-=======
->>>>>>> Stashed changes
             this.NgaySinh_CB.HeaderText = "Ngày Sinh";
             this.NgaySinh_CB.MinimumWidth = 6;
             this.NgaySinh_CB.Name = "NgaySinh_CB";
@@ -3260,14 +2881,15 @@
             // 
             // xtraTabPageSelectAllRevenue
             // 
+            this.xtraTabPageSelectAllRevenue.Controls.Add(this.btn_them_qlvc);
+            this.xtraTabPageSelectAllRevenue.Controls.Add(this.pn_sua_qlvc);
+            this.xtraTabPageSelectAllRevenue.Controls.Add(this.pn_them_qlvc);
             this.xtraTabPageSelectAllRevenue.Controls.Add(this.dtgv_dsvc);
             this.xtraTabPageSelectAllRevenue.Controls.Add(this.panel44);
             this.xtraTabPageSelectAllRevenue.Name = "xtraTabPageSelectAllRevenue";
             this.xtraTabPageSelectAllRevenue.Size = new System.Drawing.Size(1121, 672);
             this.xtraTabPageSelectAllRevenue.Text = "Danh sách vật chất";
             // 
-<<<<<<< Updated upstream
-=======
             // btn_them_qlvc
             // 
             this.btn_them_qlvc.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold);
@@ -3603,7 +3225,6 @@
             this.lb_mavc_themvc.TabIndex = 0;
             this.lb_mavc_themvc.Text = "Mã vật chất";
             // 
->>>>>>> Stashed changes
             // dtgv_dsvc
             // 
             this.dtgv_dsvc.AllowUserToAddRows = false;
@@ -3620,30 +3241,21 @@
             this.Sua_col,
             this.Xoa_col});
             this.dtgv_dsvc.DataSource = this.vatChatBindingSource;
-<<<<<<< Updated upstream
-            this.dtgv_dsvc.Dock = System.Windows.Forms.DockStyle.Top;
-            this.dtgv_dsvc.Location = new System.Drawing.Point(0, 0);
-            this.dtgv_dsvc.Name = "dtgv_dsvc";
-            this.dtgv_dsvc.RowHeadersWidth = 51;
-            this.dtgv_dsvc.RowTemplate.Height = 24;
-            this.dtgv_dsvc.Size = new System.Drawing.Size(970, 586);
-=======
             this.dtgv_dsvc.Location = new System.Drawing.Point(21, 95);
             this.dtgv_dsvc.Name = "dtgv_dsvc";
             this.dtgv_dsvc.RowHeadersWidth = 51;
             this.dtgv_dsvc.RowTemplate.Height = 24;
             this.dtgv_dsvc.Size = new System.Drawing.Size(1081, 426);
->>>>>>> Stashed changes
             this.dtgv_dsvc.TabIndex = 7;
             this.dtgv_dsvc.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DSVC_CellContentClick);
             // 
             // maVatChatDataGridViewTextBoxColumn
             // 
-            this.maVatChatDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.maVatChatDataGridViewTextBoxColumn.DataPropertyName = "MaVatChat";
             this.maVatChatDataGridViewTextBoxColumn.HeaderText = "MaVatChat";
             this.maVatChatDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.maVatChatDataGridViewTextBoxColumn.Name = "maVatChatDataGridViewTextBoxColumn";
+            this.maVatChatDataGridViewTextBoxColumn.Width = 125;
             // 
             // maDanhMucDataGridViewTextBoxColumn
             // 
@@ -3655,27 +3267,27 @@
             // 
             // tenVatChatDataGridViewTextBoxColumn
             // 
-            this.tenVatChatDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.tenVatChatDataGridViewTextBoxColumn.DataPropertyName = "TenVatChat";
             this.tenVatChatDataGridViewTextBoxColumn.HeaderText = "TenVatChat";
             this.tenVatChatDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.tenVatChatDataGridViewTextBoxColumn.Name = "tenVatChatDataGridViewTextBoxColumn";
+            this.tenVatChatDataGridViewTextBoxColumn.Width = 125;
             // 
             // giaTienDataGridViewTextBoxColumn
             // 
-            this.giaTienDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.giaTienDataGridViewTextBoxColumn.DataPropertyName = "GiaTien";
             this.giaTienDataGridViewTextBoxColumn.HeaderText = "GiaTien";
             this.giaTienDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.giaTienDataGridViewTextBoxColumn.Name = "giaTienDataGridViewTextBoxColumn";
+            this.giaTienDataGridViewTextBoxColumn.Width = 125;
             // 
             // ngayNhapDataGridViewTextBoxColumn
             // 
-            this.ngayNhapDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.ngayNhapDataGridViewTextBoxColumn.DataPropertyName = "NgayNhap";
             this.ngayNhapDataGridViewTextBoxColumn.HeaderText = "NgayNhap";
             this.ngayNhapDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.ngayNhapDataGridViewTextBoxColumn.Name = "ngayNhapDataGridViewTextBoxColumn";
+            this.ngayNhapDataGridViewTextBoxColumn.Width = 125;
             // 
             // trangThaiDataGridViewCheckBoxColumn
             // 
@@ -4668,6 +4280,7 @@
             // 
             this.panel48.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(58)))), ((int)(((byte)(90)))));
             this.panel48.Controls.Add(this.panel54);
+            this.panel48.Controls.Add(this.button85);
             this.panel48.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel48.Location = new System.Drawing.Point(0, 0);
             this.panel48.Name = "panel48";
@@ -4747,8 +4360,6 @@
             this.label194.TabIndex = 5;
             this.label194.Text = "Quản Lý Tài Khoản";
             // 
-<<<<<<< Updated upstream
-=======
             // button85
             // 
             this.button85.BackColor = System.Drawing.Color.Red;
@@ -4761,7 +4372,6 @@
             this.button85.Text = "Log out";
             this.button85.UseVisualStyleBackColor = false;
             // 
->>>>>>> Stashed changes
             // vatChatTableAdapter
             // 
             this.vatChatTableAdapter.ClearBeforeFill = true;
@@ -4792,34 +4402,38 @@
             this.panel6.ResumeLayout(false);
             this.panel12.ResumeLayout(false);
             this.panel12.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.xtraTabPageHomeLeft.ResumeLayout(false);
             this.panelTabCanHo.ResumeLayout(false);
-            this.panel20.ResumeLayout(false);
-            this.panel20.PerformLayout();
+            this.panel23.ResumeLayout(false);
+            this.panel23.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.panel38.ResumeLayout(false);
             this.xtraTabPageCanBoLeft.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
+            this.groupBox1.ResumeLayout(false);
             this.panel17.ResumeLayout(false);
             this.panel17.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.xtraTabPageNhatKySDGD.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
-            this.panel18.ResumeLayout(false);
-            this.panel18.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.xtraTabPageVatChatLeft.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.panel21.ResumeLayout(false);
             this.panel21.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.xtraTabPageKeHoachLeft.ResumeLayout(false);
             this.panel9.ResumeLayout(false);
             this.panel10.ResumeLayout(false);
             this.panel10.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.xtraTabPageHeThong.ResumeLayout(false);
             this.panel13.ResumeLayout(false);
             this.panel24.ResumeLayout(false);
             this.panel24.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).EndInit();
             this.xtraTabControl1.ResumeLayout(false);
             this.xtraTabPage1.ResumeLayout(false);
@@ -4832,7 +4446,7 @@
             this.xtraTabPageDSP.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dtgv_dsphong)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.phongBindingSource)).EndInit();
-            this.xtraTabPageQuanLyCanBoTop.ResumeLayout(false);
+            this.xtraTabPageCanBoTop.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl8)).EndInit();
             this.xtraTabControl8.ResumeLayout(false);
             this.xtraTabPageSelectAllEmployee.ResumeLayout(false);
@@ -4865,6 +4479,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl9)).EndInit();
             this.xtraTabControl9.ResumeLayout(false);
             this.xtraTabPageSelectAllRevenue.ResumeLayout(false);
+            this.pn_sua_qlvc.ResumeLayout(false);
+            this.pn_sua_qlvc.PerformLayout();
+            this.pn_them_qlvc.ResumeLayout(false);
+            this.pn_them_qlvc.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgv_dsvc)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.vatChatBindingSource)).EndInit();
             this.panel44.ResumeLayout(false);
@@ -4911,7 +4529,8 @@
         private DevExpress.XtraTab.XtraTabControl xtraTabControl1;
         private DevExpress.XtraTab.XtraTabPage xtraTabPage1;
         private DevExpress.XtraTab.XtraTabControl xtraTabControl3;
-        private DevExpress.XtraTab.XtraTabPage xtraTabPageQuanLyCanBoTop;
+        private DevExpress.XtraTab.XtraTabPage xtraTabPageHome;
+        private DevExpress.XtraTab.XtraTabPage xtraTabPageCanBoTop;
         private DevExpress.XtraTab.XtraTabControl xtraTabControl8;
         private DevExpress.XtraTab.XtraTabPage xtraTabPageSelectAllEmployee;
         private System.Windows.Forms.Panel panel14;
@@ -4980,6 +4599,7 @@
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Button button19;
         private System.Windows.Forms.Panel panel12;
+        private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.Label label36;
@@ -4992,13 +4612,38 @@
         private System.Windows.Forms.Label label69;
         private DevExpress.XtraTab.XtraTabPage xtraTabPageHomeLeft;
         private System.Windows.Forms.Panel panelTabCanHo;
+        private System.Windows.Forms.Panel panel23;
+        private System.Windows.Forms.Label labelDate;
+        private System.Windows.Forms.Label labelChucVu;
+        private System.Windows.Forms.Label label51;
+        private System.Windows.Forms.Label label50;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label labelTenDangNhap;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.PictureBox pictureBox5;
         private DevExpress.XtraTab.XtraTabPage xtraTabPageCanBoLeft;
         private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel panel17;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label label52;
+        private System.Windows.Forms.Label label53;
+        private System.Windows.Forms.Label label54;
+        private System.Windows.Forms.Label label55;
+        private System.Windows.Forms.Label label56;
+        private System.Windows.Forms.Label label57;
         private System.Windows.Forms.Button button28;
         private DevExpress.XtraTab.XtraTabPage xtraTabPageVatChatLeft;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Button button27;
         private System.Windows.Forms.Panel panel21;
+        private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Label label32;
@@ -5025,6 +4670,7 @@
         private System.Windows.Forms.Panel panel13;
         private System.Windows.Forms.Button button84;
         private System.Windows.Forms.Panel panel24;
+        private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
@@ -5112,6 +4758,7 @@
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Panel panel10;
+        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label42;
         private System.Windows.Forms.Label label47;
         private System.Windows.Forms.Label label49;
@@ -5134,7 +4781,45 @@
         private QuanLyGiangDuongDataSet quanLyGiangDuongDataSet;
         private System.Windows.Forms.BindingSource vatChatBindingSource;
         private QuanLyGiangDuongDataSetTableAdapters.VatChatTableAdapter vatChatTableAdapter;
+        private System.Windows.Forms.Panel pn_sua_qlvc;
+        private System.Windows.Forms.Panel pn_them_qlvc;
         private System.Windows.Forms.Button btn_them_qlvc;
+        private System.Windows.Forms.Button btn_huy_suavc;
+        private System.Windows.Forms.Button btn_sua_suavc;
+        private System.Windows.Forms.ListBox lstbx_trangthai_suavc;
+        private System.Windows.Forms.TextBox tb_ngaynhap_suavc;
+        private System.Windows.Forms.TextBox tb_giatien_suavc;
+        private System.Windows.Forms.TextBox tb_tenvc_suavc;
+        private System.Windows.Forms.TextBox tb_madm_suavc;
+        private System.Windows.Forms.TextBox tb_mavc_suavc;
+        private System.Windows.Forms.Label lb_trangthai_suavc;
+        private System.Windows.Forms.Label lb_ngaynhap_suavc;
+        private System.Windows.Forms.Label lb_giatien_suavc;
+        private System.Windows.Forms.Label lb_tenvc_suavc;
+        private System.Windows.Forms.Label lb_madm_suavc;
+        private System.Windows.Forms.Label lb_mavc_suavc;
+        private System.Windows.Forms.Button btn_huy_themvc;
+        private System.Windows.Forms.Button btn_them_themvc;
+        private System.Windows.Forms.ListBox lstbx_trangthai_themvc;
+        private System.Windows.Forms.TextBox tb_ngaynhap_themvc;
+        private System.Windows.Forms.TextBox tb_giatien_themvc;
+        private System.Windows.Forms.TextBox tb_tenvc_themvc;
+        private System.Windows.Forms.TextBox tb_madm_themvc;
+        private System.Windows.Forms.TextBox tb_mavc_themvc;
+        private System.Windows.Forms.Label lb_trangthai_themvc;
+        private System.Windows.Forms.Label lb_ngaynhap_themvc;
+        private System.Windows.Forms.Label lb_giatien_themvc;
+        private System.Windows.Forms.Label lb_tenvc_themvc;
+        private System.Windows.Forms.Label lb_madm_themvc;
+        private System.Windows.Forms.Label lb_mavc_themvc;
+        private System.Windows.Forms.DataGridViewTextBoxColumn maVatChatDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn maDanhMucDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tenVatChatDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn giaTienDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ngayNhapDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn trangThaiDataGridViewCheckBoxColumn;
+        private System.Windows.Forms.DataGridViewButtonColumn Sua_col;
+        private System.Windows.Forms.DataGridViewButtonColumn Xoa_col;
         private System.Windows.Forms.BindingSource hoiTruongBindingSource;
         private QuanLyGiangDuongDataSetTableAdapters.HoiTruongTableAdapter hoiTruongTableAdapter;
         private System.Windows.Forms.BindingSource phongBindingSource;
@@ -5146,6 +4831,10 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private DevExpress.XtraTab.XtraTabPage xtraTabPageDSP;
         private System.Windows.Forms.DataGridView dtgv_dsphong;
+        private System.Windows.Forms.DataGridViewTextBoxColumn maPhongDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tenDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tangDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn maHoiTruongDataGridViewTextBoxColumn1;
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Button button13;
         private System.Windows.Forms.Panel panel15;
@@ -5179,62 +4868,11 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn ThoiGianKetThuc_PC;
         private System.Windows.Forms.DataGridViewTextBoxColumn GhiChu_CV;
         private System.Windows.Forms.DataGridViewTextBoxColumn NguoiLap_LCT;
-        private System.Windows.Forms.Button button21;
         private System.Windows.Forms.DataGridViewTextBoxColumn MaCanBo_CB;
         private System.Windows.Forms.DataGridViewTextBoxColumn TenCanBo_CB;
         private System.Windows.Forms.DataGridViewTextBoxColumn NgaySinh_CB;
         private System.Windows.Forms.DataGridViewTextBoxColumn GioiTinh_CB;
         private System.Windows.Forms.DataGridViewTextBoxColumn SDT_CB;
-        private System.Windows.Forms.Button button22;
-        private System.Windows.Forms.Button button24;
-        private System.Windows.Forms.Button button23;
-        private System.Windows.Forms.Panel panel20;
-        private System.Windows.Forms.Button button29;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label50;
-        private System.Windows.Forms.Label label51;
-        private System.Windows.Forms.Label label96;
-        private System.Windows.Forms.Label label97;
-        private System.Windows.Forms.Label label98;
-        private System.Windows.Forms.Panel panel17;
-        private System.Windows.Forms.Button button26;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.Label label52;
-        private System.Windows.Forms.Label label53;
-        private System.Windows.Forms.Label label54;
-        private System.Windows.Forms.Label label55;
-        private System.Windows.Forms.Label label56;
-        private System.Windows.Forms.Label label57;
-        private System.Windows.Forms.Panel panel18;
-        private System.Windows.Forms.Button button25;
-        private System.Windows.Forms.Label label45;
-        private System.Windows.Forms.Label label76;
-        private System.Windows.Forms.Label label77;
-        private System.Windows.Forms.Label label89;
-        private System.Windows.Forms.Label label90;
-        private System.Windows.Forms.Label label91;
-        private System.Windows.Forms.Label label92;
-        private System.Windows.Forms.Label label93;
-        private System.Windows.Forms.Label label94;
-        private System.Windows.Forms.Label label95;
-        private System.Windows.Forms.DataGridViewTextBoxColumn maVatChatDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn maDanhMucDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn tenVatChatDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn giaTienDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ngayNhapDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn trangThaiDataGridViewCheckBoxColumn;
-        private System.Windows.Forms.DataGridViewButtonColumn Sua_col;
-        private System.Windows.Forms.DataGridViewButtonColumn Xoa_col;
-        private System.Windows.Forms.DataGridViewTextBoxColumn maPhongDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn tenDataGridViewTextBoxColumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn tangDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn maHoiTruongDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.Button button21;
     }
 }

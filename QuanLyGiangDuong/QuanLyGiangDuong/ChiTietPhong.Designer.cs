@@ -1,6 +1,6 @@
 ﻿namespace QuanLyGiangDuong
 {
-    partial class Login
+    partial class ChiTietPhong
     {
         /// <summary>
         /// Required designer variable.
@@ -30,13 +30,13 @@
         {
             this.SuspendLayout();
             // 
-            // Login
+            // ChiTietPhong
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(635, 401);
-            this.Name = "Login";
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(850, 516);
+            this.Name = "ChiTietPhong";
+            this.Text = "ChiTietPhong";
             this.ResumeLayout(false);
 
         }
@@ -44,4 +44,3 @@
         #endregion
     }
 }
-
